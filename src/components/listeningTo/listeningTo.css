@@ -16,9 +16,10 @@
 }
 
 .track-image{
-    width: 70px;
-    height: 70px;
-    padding: 5%;
+    width: 80px;
+    height: 80px;
+    padding: 3%;
+    border-radius: 25%;
 }
 
 .track-info-container{

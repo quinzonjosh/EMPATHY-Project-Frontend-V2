@@ -7,29 +7,34 @@ import Track from "../../components/track/Track";
 
 const Home = () => {
   const [name, setName] = useState("");
-  const [playlists, setPlaylists] = useState(null);
-
-
-  useEffect(() => {
-    apiClient
-      .get("me/player/recently-played")
-      .then((response) => {
-        // console.log(response);
-      })
-      .catch((error) => {
-        console.error("Error fetching recently played:", error);
-      });
-  }, []);
+  const [recentlyPlayed, setRecentlyPlayed] = useState({});
+  const [artists, setArtists] = useState([]);
+  const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
 
   useEffect(() => {
+    // get user's name
     apiClient
       .get("me")
       .then((response) => {
         setName(response.data.display_name.split(" ")[0]);
-        // console.log(response);
       })
       .catch((error) => {
         console.error("Error fetching user name:", error);
+      });
+
+    // get the latest music listened by the user
+    apiClient
+      .get("me/player/recently-played")
+      .then((response) => {
+        setRecentlyPlayed(response.data.items[0].track);
+        const artistNames = response.data.items[0].track.artists.map(
+          (artist) => artist.name
+        );
+        setArtists(artistNames);
+        setAlbumImageURL(recentlyPlayed.album.images[0].url)
+    })
+      .catch((error) => {
+        console.error("Error fetching recently played:", error);
       });
   }, []);
 
@@ -41,7 +46,7 @@ const Home = () => {
           <div className="username">{name}</div>
         </div>
         <div className="listening-to-container">
-          <ListeningTo />
+          <ListeningTo url={albumImageURL} title={recentlyPlayed.name} artists={artists} />
         </div>
         <div className="mood-container">
           <Mood />
