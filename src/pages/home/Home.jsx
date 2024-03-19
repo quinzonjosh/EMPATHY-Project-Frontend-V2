@@ -26,12 +26,13 @@ const Home = () => {
     apiClient
       .get("me/player/recently-played")
       .then((response) => {
-        setRecentlyPlayed(response.data.items[0].track);
-        const artistNames = response.data.items[0].track.artists.map(
+        const track = response.data.items[0].track;
+        setRecentlyPlayed(track);
+        const artistNames = track.artists.map(
           (artist) => artist.name
         );
         setArtists(artistNames);
-        setAlbumImageURL(recentlyPlayed.album.images[0].url)
+        setAlbumImageURL(track.album.images[0].url)
     })
       .catch((error) => {
         console.error("Error fetching recently played:", error);
