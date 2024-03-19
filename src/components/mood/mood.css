@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+.mood-label {
+  background-color: #f8bcc0;
+  border-radius: 30px;
+}
+
+.m-label {
+  color: white;
+  padding: 2% 5%;
+}
+
+.emotion-container {
+  background-color: #ffdadd;
+  border-radius: 30px;
+}
+
+.emotion-value {
+  color: black;
+  font-size: 40px;
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}

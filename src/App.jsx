@@ -21,7 +21,7 @@ function App() {
       window.localStorage.setItem("token", _token);
       setToken(_token);
       setClientToken(_token);
-      console.log(window.localStorage.getItem("token"))
+      // console.log(window.localStorage.getItem("token"))
     } else{
       setToken(token);
       setClientToken(token);
