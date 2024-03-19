@@ -1,0 +1,8 @@
+.home-body {
+  width: inherit;
+  padding: 3%;
+  display: flex;
+  background-color: #fff4d0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
