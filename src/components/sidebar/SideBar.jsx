@@ -13,7 +13,7 @@ const SideBar = () => {
         apiClient.get("me")
         .then(response => {
             setImage(response.data.images[0]?.url);
-            console.log(response.data.images[0].url);
+            // console.log(response);
         })
         .catch(error => {
             console.error("Error fetching user data:", error);

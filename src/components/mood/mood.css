@@ -1,0 +1,18 @@
+.mood-label{
+    background-color: #f8bcc0;
+    border-radius: 30px;
+}
+
+.m-label{
+    color: white;
+    padding: 2% 5%;
+}
+
+.emotion-container{
+    background-color: #ffdadd;
+    border-radius: 30px;
+}
+
+.emotion-value{
+    color: black;
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .home-body {
   width: inherit;
   padding: 3%;
@@ -5,4 +7,53 @@
   background-color: #fff4d0;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+.home-left-body {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.home-right-body{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wb-label {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #ff4930;
+  text-shadow: 
+    2px 0 0 #000,  /* 2px right shadow, black */
+    -2px 0 0 #000,  /* 2px left shadow, black */
+    0 2px 0 #000,  /* 2px bottom shadow, black */
+    0 -2px 0 #000;  /* 2px top shadow, black */
+    font-size: 50px;
+}
+
+.username {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fbeb04;
+  text-shadow: 
+    2px 0 0 #000,  /* 2px right shadow, black */
+    -2px 0 0 #000,  /* 2px left shadow, black */
+    0 2px 0 #000,  /* 2px bottom shadow, black */
+    0 -2px 0 #000;  /* 2px top shadow, black */
+    font-size: 50px;
+}
+
+.listening-to-container,
+.mood-container {
+  width: 60%;
 }
