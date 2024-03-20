@@ -11,6 +11,7 @@ const Home = () => {
   const [recentlyPlayed, setRecentlyPlayed] = useState({});
   const [artists, setArtists] = useState([]);
   const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
+  const [trackID, setTrackID] = useState("");
 
   useEffect(() => {
     // get user's name
@@ -34,7 +35,9 @@ const Home = () => {
         );
         setArtists(artistNames);
         setAlbumImageURL(track.album.images[0].url)
-    })
+
+        setTrackID(track.id);
+      })
       .catch((error) => {
         console.error("Error fetching recently played:", error);
       });
