@@ -33,12 +33,12 @@
   font-style: normal;
   font-size: 50px;
   color: #ff4930;
-  text-shadow: 
+  /*text-shadow: 
     2px 0 0 #000,  /* 2px right shadow, black */
-    -2px 0 0 #000,  /* 2px left shadow, black */
-    0 2px 0 #000,  /* 2px bottom shadow, black */
-    0 -2px 0 #000;  /* 2px top shadow, black */
-    font-size: 50px;
+  /*  -2px 0 0 #000,  /* 2px left shadow, black */
+  /*  0 2px 0 #000,  /* 2px bottom shadow, black */
+  /*  0 -2px 0 #000;  /* 2px top shadow, black */
+  /*  font-size: 50px; */
 }
 
 .username {
