@@ -30,7 +30,7 @@ const SideBar = () => {
       <img className="profile-img" src={image} />
       <SidebarButton
         title="Sign Out"
-        to=""
+        to="/"
         icon={<FaSignOutAlt />}
       />
     </div>

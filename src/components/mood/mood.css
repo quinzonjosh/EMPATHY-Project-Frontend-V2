@@ -22,3 +22,9 @@
   font-weight: 2000;
   font-style: normal;
 }
+
+.predict_button{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const authEndpoint = "https://accounts.spotify.com/authorize?";
-const clientId = "9e80252667f04d59a9b6a04b43002df7";
+const clientId = "d08e2206b27b47a1aef16ca63e2e921f";
 const redirectUri = "http://localhost:5173";
-const scopes = ["user-read-recently-played", "user-library-read", "user-read-currently-playing"];
+const scopes = ["user-read-recently-played", "user-library-read", "playlist-read-private", "user-read-currently-playing"];
 
 export const loginEndpoint = `${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
     "%20"

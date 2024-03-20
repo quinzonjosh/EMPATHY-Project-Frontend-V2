@@ -14,6 +14,7 @@ const Home = () => {
     "public/images/Spotify_logo_without_text.svg.png"
   );
   const [trackID, setTrackID] = useState("");
+  const [song, setSong] = useState("");
   const [currentTrackFeatures, setCurrentTrackFeatures] = useState([]);
 
   useEffect(() => {
@@ -90,15 +91,23 @@ const Home = () => {
           />
         </div>
         <div className="mood-container">
-          <Mood />
+          <Mood track_id={trackID}/>
         </div>
       </div>
       <div className="home-right-body">
         <Feedback />
-        <Track />
+        <Track track_id={trackID}/>
       </div>
     </div>
   );
 };
 
 export default Home;
+
+async function getRecentlyPlayed() {
+  return apiClient.get("/me/player/recently-played");
+}
+
+async function getCurrentTrack() {
+  return apiClient.get("/me/player/currently-playing");
+}
