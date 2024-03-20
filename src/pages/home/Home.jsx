@@ -56,7 +56,7 @@ const Home = () => {
         setAlbumImageURL(track.album.images[0].url);
 
         setTrackID(track.id);
-        console.log(track);
+        // console.log(track);
       })
       .catch((error) => {
         console.error("Error fetching currently playing:", error);
@@ -68,7 +68,7 @@ const Home = () => {
       .then((response) => {
         const features = response.data;
         setCurrentTrackFeatures(features);
-        console.log(currentTrackFeatures)
+        // console.log(currentTrackFeatures)
       })
       .catch((error) => {
         console.error("Error fetching current track features:", error);
