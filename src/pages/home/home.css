@@ -20,18 +20,25 @@
 }
 
 .home-right-body{
-    width: 50%;
+    /* width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; */
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .wb-label {
   font-family: "Caprasimo", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
+  font-size: 65px;
   color: #ff4930;
   /*text-shadow: 
     2px 0 0 #000,  /* 2px right shadow, black */

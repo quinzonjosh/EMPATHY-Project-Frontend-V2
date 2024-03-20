@@ -14,8 +14,10 @@ const SideBar = () => {
     apiClient
       .get("me")
       .then((response) => {
-        setImage(response.data.images[0]?.url);
-        // console.log(response);
+        setImage(response.data.images[0]?.url); 
+        if (response.data.images[0] == undefined){
+          setImage("public/images/Spotify_logo_without_text.svg.png");
+        }
       })
       .catch((error) => {
         console.error("Error fetching user data:", error);

@@ -4,6 +4,7 @@ import apiClient from "../../spotify";
 import ListeningTo from "../../components/listeningTo/ListeningTo";
 import Mood from "../../components/mood/Mood";
 import Track from "../../components/track/Track";
+import Feedback from "../../components/feedback/feedback";
 
 const Home = () => {
   const [name, setName] = useState("");
@@ -54,6 +55,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-right-body">
+        <Feedback />
         <Track />
       </div>
     </div>
