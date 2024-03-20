@@ -1,7 +1,17 @@
 .main-body{
   height: 100vh;
-  width: 100vw;
   background-color: #DBCAAC;
   border-radius: 30px;
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
 }

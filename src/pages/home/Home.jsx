@@ -4,12 +4,14 @@ import apiClient from "../../spotify";
 import ListeningTo from "../../components/listeningTo/ListeningTo";
 import Mood from "../../components/mood/Mood";
 import Track from "../../components/track/Track";
+import Feedback from "../../components/feedback/feedback";
 
 const Home = () => {
   const [name, setName] = useState("");
   const [recentlyPlayed, setRecentlyPlayed] = useState({});
   const [artists, setArtists] = useState([]);
   const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
+  const [trackID, setTrackID] = useState("");
 
   useEffect(() => {
     // get user's name
@@ -33,7 +35,9 @@ const Home = () => {
         );
         setArtists(artistNames);
         setAlbumImageURL(track.album.images[0].url)
-    })
+
+        setTrackID(track.id);
+      })
       .catch((error) => {
         console.error("Error fetching recently played:", error);
       });
@@ -54,6 +58,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-right-body">
+        <Feedback />
         <Track />
       </div>
     </div>
