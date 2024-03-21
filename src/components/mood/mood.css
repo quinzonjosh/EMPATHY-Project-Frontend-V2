@@ -21,10 +21,24 @@
   font-family: "Londrina Outline", sans-serif;
   font-weight: 2000;
   font-style: normal;
+  margin: auto;
 }
 
-.predict_button{
+.predict_button {
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #ff7e7e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 2% 5%;
+  margin-bottom: 5%;
+  margin: 0 auto; /* Added horizontal margin auto */
+  font-weight: bold;
+  cursor: pointer;
+  transition: filter 0.3s;
+  margin: auto;
+
+  &:hover{
+    background-color: #c15e5e;
+  }
 }
