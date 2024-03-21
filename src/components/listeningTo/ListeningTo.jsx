@@ -12,6 +12,9 @@ const ListeningTo = (props) => {
           <div className="artist-label">{props.artists.join(" | ")}</div>
         </div>
       </div>
+      <button className="refresh_button" onClick={() => props.fetchData()}>
+        Refresh
+      </button>
     </div>
   );
 };

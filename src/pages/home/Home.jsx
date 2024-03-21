@@ -45,7 +45,10 @@ const Home = () => {
     //     console.error("Error fetching recently played:", error);
     //   });
 
-    // get the user's current track listening to
+    fetchData()
+  }, []);
+
+  async function fetchData() {
     apiClient
       .get("me/player/currently-playing")
       .then((response) => {
@@ -56,16 +59,13 @@ const Home = () => {
         setAlbumImageURL(track.album.images[0].url);
 
         setTrackID(track.id);
-        // console.log(track);
       })
       .catch((error) => {
         console.error("Error fetching currently playing:", error);
-      });
-  }, []);
+      })
 
-  useEffect(() => {
-    // get audio features of the current track
-    apiClient
+      // Get Audio Features
+      apiClient
       .get(`/audio-features/${trackID}`)
       .then((response) => {
         const features = response.data;
@@ -74,11 +74,7 @@ const Home = () => {
       .catch((error) => {
         console.error("Error fetching current track features:", error);
       });
-  }, [trackID]);
-
-  useEffect(() => {
-    console.log("Current Track's audio features:", currentTrackFeatures);
-  }, [currentTrackFeatures]);
+  }
 
   return (
     <div className="home-body">
@@ -92,6 +88,7 @@ const Home = () => {
             url={albumImageURL}
             title={currentlyPlayingTrack.name}
             artists={artists}
+            fetchData={fetchData}
           />
         </div>
         <div className="mood-container">
@@ -107,11 +104,3 @@ const Home = () => {
 };
 
 export default Home;
-
-async function getRecentlyPlayed() {
-  return apiClient.get("/me/player/recently-played");
-}
-
-async function getCurrentTrack() {
-  return apiClient.get("/me/player/currently-playing");
-}
