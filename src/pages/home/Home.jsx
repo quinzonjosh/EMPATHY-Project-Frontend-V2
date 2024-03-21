@@ -49,10 +49,9 @@ const Home = () => {
     apiClient
       .get("me/player/currently-playing")
       .then((response) => {
-
         const track = response.data.item;
-        setCurrentlyPlayingTrack(track);
         const artistNames = track.artists.map((artist) => artist.name);
+        setCurrentlyPlayingTrack(track);
         setArtists(artistNames);
         setAlbumImageURL(track.album.images[0].url);
 
@@ -62,19 +61,24 @@ const Home = () => {
       .catch((error) => {
         console.error("Error fetching currently playing:", error);
       });
+  }, []);
 
+  useEffect(() => {
     // get audio features of the current track
     apiClient
       .get(`/audio-features/${trackID}`)
       .then((response) => {
         const features = response.data;
         setCurrentTrackFeatures(features);
-        // console.log(currentTrackFeatures)
       })
       .catch((error) => {
         console.error("Error fetching current track features:", error);
       });
-  }, []);
+  }, [trackID]);
+
+  useEffect(() => {
+    console.log("Current Track's audio features:", currentTrackFeatures);
+  }, [currentTrackFeatures]);
 
   return (
     <div className="home-body">
@@ -91,12 +95,12 @@ const Home = () => {
           />
         </div>
         <div className="mood-container">
-          <Mood track_id={trackID}/>
+          <Mood track_id={trackID} />
         </div>
       </div>
       <div className="home-right-body">
         <Feedback />
-        <Track track_id={trackID}/>
+        <Track track_id={trackID} />
       </div>
     </div>
   );
