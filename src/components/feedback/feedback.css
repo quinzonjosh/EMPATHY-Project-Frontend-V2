@@ -26,9 +26,11 @@
 }
 
 .styled_button{
+  width: 30%;
+  text-align: center;
     background-color: #939ED1;
     color: white;
-    padding: 15px 30px;
+    padding: 3% 5%;
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
