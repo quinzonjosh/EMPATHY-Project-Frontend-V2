@@ -24,10 +24,7 @@ const Track = (props) => {
       var data = response.data
       setSeedArtist(data.artists[0].id)
       setSeedGenre(data.artists[0].genres ? data.artists[0].genres[0] : "pop")
-      setSeedTracks(trackID)
-      console.log(seedArtist)
-      console.log(seedGenre)
-      console.log(seed_tracks)
+
       getRecommendation()
     })
   }
@@ -38,23 +35,21 @@ const Track = (props) => {
       "?limit=1" + 
       "&seed_artists=" + seedArtist + 
       "&seed_genres=" + seedGenre + 
-      "&seed_tracks=" + seed_tracks
+      "&seed_tracks=" + trackID
     )
     .then((response) => {
       var data = response.data
-      setName(response.data.tracks[0].name)
-      setArtist(response.data.tracks[0].artists[0].name)
-      setAlbumImg(response.data.tracks[0].album.images[0].url)
+      setName(data.tracks[0].name)
+      setArtist(data.tracks[0].artists[0].name)
+      setAlbumImg(data.tracks[0].album.images[0].url)
+    })
+    .catch((error) => {
+      console.log(error)
     })
   }
 
   return (
     <div className="track-outer-container">
-      <button onClick={() => {
-        getTrack()
-      }}>
-        Get Recommendation
-      </button>
       <div className="recommend-label">
         Based on your mood, we recommend you listen to...
       </div>
@@ -67,6 +62,11 @@ const Track = (props) => {
           <div className="song-title">{name ? name : "Song Title"}</div>
           <div className="artist-label">{artist ? artist : "Artist"}</div>
         </div>
+        <button className="button_recommendation" onClick={() => {
+          getTrack()
+        }}>
+          Get Recommendation
+        </button>
       </div>
     </div>
   );
