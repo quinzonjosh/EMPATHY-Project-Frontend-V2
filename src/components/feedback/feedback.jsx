@@ -1,14 +1,14 @@
 import "./feedback.css";
 import * as React from "react";
 
-const Feedback = (props) => {
-  const track_id = props.track_id;
+const Feedback = ({track_id, mood, setCorrectMood, printData, features}) => {
 
-  const handleClick = (e) => {
+  const handleClick = (num) => {
     // this will get us the words "Happy", "Sad", and "Angry"
     // temporarily, it will only show an alert for button interaction
-    console.log(e.target.innerHTML);
+    setCorrectMood(num)
     alert("Thank you! Your response has been recorded.");
+    printData(features)
   };
 
   return (
@@ -19,24 +19,24 @@ const Feedback = (props) => {
           <button
             className="styled_button"
             id="happy_button"
-            onClick={handleClick}
-            disabled={!track_id} 
+            onClick={(e) => handleClick(0)}
+            disabled={!track_id || !mood} 
           >
             happy
           </button>
           <button
             className="styled_button"
             id="sad_button"
-            onClick={handleClick}
-            disabled={!track_id} 
+            onClick={(e) => handleClick(1)}
+            disabled={!track_id || !mood} 
           >
             sad
           </button>
           <button
             className="styled_button"
             id="angry_button"
-            onClick={handleClick}
-            disabled={!track_id} 
+            onClick={(e) => handleClick(2)}
+            disabled={!track_id || !mood} 
           >
             angry
           </button>

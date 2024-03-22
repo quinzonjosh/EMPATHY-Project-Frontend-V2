@@ -3,7 +3,7 @@ import "./track.css";
 import apiClient from "../../spotify";
 import { data } from "@tensorflow/tfjs";
 
-const Track = (props) => {
+const Track = ({track_id, futureMood}) => {
   const [trackID, setTrackID] = useState("");
   const [seedArtist, setSeedArtist] = useState("");
   const [seedGenre, setSeedGenre] = useState("");
@@ -13,30 +13,32 @@ const Track = (props) => {
   const [artist, setArtist] = useState("");
   const [albumImg, setAlbumImg] = useState("");
 
-  const track_id = props.track_id;
-
   useEffect(() => {
-    if(props.track_id){
-      setTrackID(props.track_id)
+    if(track_id){
+      setTrackID(track_id)
     }
-  }, [props.track_id])
+  }, [track_id])
 
   async function getTrack(){
+
+    // TODO: get track based on emotion from DB
+
     apiClient.get("/tracks/" + trackID).then((response) => {
       var data = response.data
+      console.log(data)
       setSeedArtist(data.artists[0].id)
-      setSeedGenre(data.artists[0].genres ? data.artists[0].genres[0] : "pop")
-
+      setSeedGenre(data.artists[0].genres ? data.artists[0].genres[0] : "")
       getRecommendation()
     })
   }
   
   async function getRecommendation(){
+
     apiClient.get(
       "recommendations" +
       "?limit=1" + 
       "&seed_artists=" + seedArtist + 
-      "&seed_genres=" + seedGenre + 
+      (seedGenre ? "&seed_genres=" + seedGenre : "") +
       "&seed_tracks=" + trackID
     )
     .then((response) => {
@@ -53,7 +55,7 @@ const Track = (props) => {
   return (
     <div className="track-outer-container">
       <div className="recommend-label">
-        Based on your mood, we recommend you listen to...
+        Based on what you want, we recommend:
       </div>
       <div className="track-inner-container">
         <img
@@ -64,7 +66,7 @@ const Track = (props) => {
           <div className="song-title">{name ? name : "Song Title"}</div>
           <div className="artist-label">{artist ? artist : "Artist"}</div>
         </div>
-        <button className="button_recommendation" disabled={!track_id} onClick={() => {
+        <button className="button_recommendation" disabled={!track_id || futureMood == null} onClick={() => {
           getTrack()
         }}>
           Get Recommendation
