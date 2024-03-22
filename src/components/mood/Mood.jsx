@@ -69,7 +69,7 @@ const Mood = (props) => {
               ? " :("
               : mood === "ANGRY"
               ? " >:("
-              : "null"}
+              : ""}
           </div>
           <button
             className="predict_button"
