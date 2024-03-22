@@ -7,7 +7,7 @@ const Feedback = ({track_id, mood, setCorrectMood, printData, features}) => {
     // this will get us the words "Happy", "Sad", and "Angry"
     // temporarily, it will only show an alert for button interaction
     setCorrectMood(num)
-    alert("Thank you! Your response has been recorded.");
+    alert("Please Append the Results from the Console to the Model's CSV File.");
     printData(features)
   };
 
