@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className="login-page">
           <img
-            src="public/images/Spotify_logo_without_text.svg.png"
+            src="/images/Spotify_logo_without_text.svg.png"
             className="spotify-logo"
           />
           <a href={loginEndpoint}>
