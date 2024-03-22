@@ -1,0 +1,82 @@
+#,Song,Artist,Popularity,BPM,Genres,Parent Genres,Dance,Energy,Acoustic,Instrumental,Happy,Speech,Live,Loud,Mood
+1,Footloose,Kenny Loggins,73,174,"album rock, classic rock, heartland rock, mellow gold, new wave pop, singer-songwriter, soft rock, yacht rock","Rock, Pop, Folk/Acoustic",55,90,8,0,49,0,0,-7,Happy
+2,Wake Me Up Before You Go-Go,Wham!,81,82,"new romantic, new wave pop, soft rock","Rock, Pop",62,57,27,0,90,0,0,-12,Happy
+3,Mamma Mia,ABBA,80,138,"europop, swedish pop",Pop,75,75,30,0,83,0,40,-7,Happy
+4,I'm So Excited,The Pointer Sisters,74,184,"disco, girl group, hi-nrg, motown, new wave pop, soft rock","R&B, Pop, Rock",59,87,10,0,80,0,40,-6,Happy
+5,Summer Nights - From â€œGreaseâ€,"John Travolta,Olivia Newton-John",71,124,"hollywood, adult standards, australian dance, disco, mellow gold, soft rock","Easy listening, Electronic, R&B, Rock",75,66,62,0,61,0,0,-9,Happy
+6,Walking On Sunshine,Katrina & The Waves,80,110,new wave pop,Pop,60,87,1,17,94,0,0,-12,Happy
+7,Total Eclipse of the Heart,Bonnie Tyler,80,130,"europop, new wave pop, soft rock","Pop, Rock",43,72,14,0,19,0,30,-6,Happy
+8,Time After Time,Cyndi Lauper,82,130,"dance pop, new wave pop, permanent wave, soft rock","Pop, Rock",73,45,49,0,29,0,0,-9,Happy
+9,Uptown Girl,Billy Joel,84,129,"album rock, classic rock, heartland rock, mellow gold, piano rock, rock, singer-songwriter, soft rock","Rock, Folk/Acoustic",70,94,8,0,79,0,60,-3,Happy
+10,We Built This City,Starship,78,144,"album rock, classic rock, mellow gold, new romantic, new wave pop, soft rock, synthpop","Rock, Pop",66,91,5,0,66,0,0,-5,Happy
+11,Livin' On A Prayer,Bon Jovi,87,123,"glam metal, rock","Metal, Rock",53,89,8,0,80,0,20,-4,Happy
+12,Under Pressure - Remastered 2011,"Queen,David Bowie",82,114,"classic rock, glam rock, rock, art rock, permanent wave",Rock,67,71,43,0,46,0,10,-8,Happy
+13,Like a Prayer,Madonna,75,111,"dance pop, pop",Pop,62,84,26,0,26,0,10,-5,Happy
+14,Material Girl,Madonna,76,137,"dance pop, pop",Pop,74,88,33,0,98,0,10,-3,Happy
+15,Summer Of '69,Bryan Adams,84,139,"canadian pop, canadian singer-songwriter, classic canadian rock, heartland rock, mellow gold, soft rock","Pop, Folk/Acoustic, Rock",51,83,2,0,77,0,0,-6,Happy
+16,Redbone,Childish Gambino,83,160,"atl hip hop, hip hop, rap",Hip Hop,75,35,17,1,60,10,10,-11,Happy
+17,How Do You Heal a Broken Heart,Chris Walker,58,100,,,60,39,63,0,23,0,10,-10,Happy
+18,Valentine,"Jim Brickman,Martina McBride",59,95,"new age, new age piano, contemporary country, country, country dawn, country road","Country, New age",52,26,84,0,18,0,10,-13,Happy
+19,What You Won't Do for Love,Bobby Caldwell,79,84,yacht rock,Rock,64,40,46,0,80,0,10,-17,Happy
+20,There She Goes,The La's,76,123,britpop,Pop,53,76,1,83,92,0,20,-11,Happy
+21,Always Be My Baby - Austin Millz Remix,"Mariah Carey,Austin Millz",39,77,"dance pop, pop, urban contemporary,","Pop, Hip Hop",76,78,14,0,70,30,80,-2,Sad
+22,Peaches X Whats Luv,ELJEE,48,94,,,77,84,1,9,71,0,20,-9,Sad
+23,Kiss Me More (feat. Naomi Watanabe),"Doja Cat,æ¸¡è¾ºç›´ç¾Ž",38,111,"dance pop, pop, geinin song",Pop,78,69,39,0,75,0,10,-4,Sad
+24,We Belong Together,Mariah Carey,75,140,"dance pop, pop, urban contemporary","Pop, Hip Hop",84,48,3,0,77,0,0,-8,Sad
+25,Stickwitu,The Pussycat Dolls,71,80,"dance pop, girl group, pop",Pop,55,55,28,0,38,0,0,-6,Sad
+26,Always Be My Baby,Mariah Carey,74,79,"dance pop, pop, urban contemporary","Pop, Hip Hop",65,53,46,0,49,0,20,-8,Sad
+27,My Boo,"USHER,Alicia Keys",83,86,"atl hip hop, contemporary r&b, dance pop, pop, r&b, rap, south carolina hip hop, urban contemporary, neo soul","Hip Hop, R&B, Pop",66,51,26,0,68,10,0,-8,Sad
+28,Go On Girl,Ne-Yo,65,84,"dance pop, pop, r&b, urban contemporary","Pop, R&B, Hip Hop",64,52,16,0,56,10,0,-7,Sad
+29,Dilemma,"Nelly,Kelly Rowland",80,168,"dance pop, gangster rap, hip hop, pop rap, rap, st louis rap, urban contemporary, atl hip hop, hip pop, r&b","Hip Hop, Pop, R&B",73,55,23,0,61,10,20,-8,Sad
+30,Say My Name,Destiny's Child,81,138,"dance pop, girl group, pop, r&b, urban contemporary","Pop, R&B, Hip Hop",71,68,27,0,73,10,10,-4,Sad
+31,Bartender (feat. Akon),"T-Pain,Akon",76,105,"dance pop, gangster rap, hip hop, pop rap, r&b, rap, southern hip hop, trap, urban contemporary","Pop, Hip Hop, R&B",83,39,6,0,44,0,20,-9,Sad
+32,Burn,USHER,76,120,"atl hip hop, contemporary r&b, dance pop, pop, r&b, rap, south carolina hip hop, urban contemporary","Hip Hop, R&B, Pop",80,48,31,0,69,10,10,-7,Sad
+33,Incomplete,Sisqo,63,119,"contemporary r&b, dirty south rap, hip pop, r&b, urban contemporary","R&B, Hip Hop, Pop",75,44,28,0,27,0,10,-8,Sad
+34,Irreplaceable,BeyoncÃ©,45,176,"pop, r&b","Pop, R&B",58,70,3,0,50,30,10,-4,Sad
+35,All I Have (feat. LL Cool J),"Jennifer Lopez,LL COOL J",64,83,"dance pop, pop, urban contemporary, east coast hip hop, golden age hip hop, hip hop, old school hip hop, queens hip hop, rap","Pop, Hip Hop",70,67,27,0,45,10,10,-5,Sad
+36,With You,Chris Brown,76,86,"r&b, rap","R&B, Hip Hop",66,69,13,0,66,0,10,-4,Sad
+37,Coastline,Hollow Coves,76,100,"indie anthem-folk, indie folk, modern indie folk",Folk/Acoustic,67,50,63,0,43,0,0,-11,Sad
+38,Peaches - Justin Bieber - Remix,Trinix Remix,35,95,,,73,61,27,0,56,10,10,-10,Sad
+39,I Ain't Worried,OneRepublic,90,140,"piano rock, pop","Rock, Pop",70,80,8,0,83,0,0,-6,Sad
+40,Fuck You,CeeLo Green,63,127,"atl hip hop, pop rap",Hip Hop,69,88,19,0,75,0,10,-4,Sad
+41,Rover (feat. DTG),"S1mba,DTG",70,63,afroswing,World/Traditional,61,62,50,0,80,20,20,-7,Sad
+42,Because Of You,Ne-Yo,77,110,"dance pop, pop, r&b, urban contemporary","Pop, R&B, Hip Hop",81,54,53,0,83,0,10,-6,Sad
+43,Let Me Love You,Mario,74,95,"dance pop, r&b, southern hip hop, urban contemporary","Pop, R&B, Hip Hop",69,59,18,0,62,0,10,-8,Sad
+44,No One,Alicia Keys,77,90,"neo soul, pop, r&b","R&B, Pop",64,55,3,0,15,0,10,-5,Sad
+45,If I Ain't Got You,Alicia Keys,84,118,"neo soul, pop, r&b","R&B, Pop",61,44,60,0,17,10,10,-9,Sad
+46,Me & U,Cassie,78,100,"dance pop, hip pop, pop rap, r&b, urban contemporary","Pop, Hip Hop, R&B",80,45,35,0,74,0,0,-5,Sad
+47,Slow Motion,Trey Songz,69,95,"dance pop, r&b, southern hip hop, trap, urban contemporary","Pop, R&B, Hip Hop",73,41,68,0,29,0,10,-8,Sad
+48,Back At One,Brian McKnight,69,130,"contemporary r&b, quiet storm, r&b, urban contemporary","R&B, Hip Hop",66,35,45,0,26,0,10,-9,Sad
+49,Kiss Kiss (feat. T-Pain),"Chris Brown,T-Pain",73,140,"r&b, rap, dance pop, gangster rap, hip hop, pop rap, southern hip hop, trap, urban contemporary","Pop, Hip Hop, R&B",73,66,5,0,55,20,0,-3,Sad
+50,How Do You Heal a Broken Heart,Chris Walker,58,100,,,60,39,63,0,23,0,10,-10,Sad
+51,Hot,Liili,55,120,,,98,31,49,0,75,10,10,-9,Sad
+52,Always Remember Us This Way,Lady Gaga,84,130,"art pop, dance pop, pop",Pop,55,50,30,0,30,0,70,-6,Sad
+53,What You Won't Do for Love,Bobby Caldwell,79,84,yacht rock,Rock,64,40,46,0,80,0,10,-17,Sad
+54,End of Beginning,Djo,96,160,"pov: indie, psychedelic pop",Pop,69,45,4,0,91,0,0,-8,Sad
+55,Unwritten,Natasha Bedingfield,93,100,"dance pop, pop, post-teen pop",Pop,71,80,1,0,63,0,0,-6,Sad
+56,Put Your Records On,Corinne Bailey Rae,81,96,"british soul, neo soul, pop soul, soul",R&B,74,51,17,0,54,0,10,-8,Sad
+57,Made For Me,Muni Long,87,120,"indie r&b, pop r&b",R&B,79,47,14,0,6,0,10,-6,Sad
+58,There She Goes,The La's,76,123,britpop,Pop,53,76,1,83,92,0,20,-11,Sad
+59,Tingin,"Cup of Joe,Janine",80,105,"opm, pinoy city pop, pinoy singer-songwriter",Pop,62,77,21,0,47,0,10,-6,Angry
+60,Saan?,Maki,75,120,,,60,79,19,0,70,0,10,-4,Angry
+61,Kisame,rhodessa,76,100,,,58,31,95,6,20,0,20,-10,Angry
+62,Umaasa,Calein,76,96,pinoy city pop,Pop,63,43,30,39,35,0,30,-10,Angry
+63,Beer,The Itchyworms,68,85,opm,Pop,54,69,51,0,46,0,10,-4,Angry
+64,Ang Huling El Bimbo,Eraserheads,66,89,"opm, pinoy reggae",Pop,52,50,18,0,44,0,20,-12,Angry
+65,Pwede Ba,Lola Amour,63,79,opm,Pop,67,33,61,0,25,0,10,-8,Angry
+66,Yakap,Zack Tabudlo,59,114,"acoustic opm, opm, p-pop",Pop,74,39,41,0,55,0,10,-8,Angry
+67,711,TONEEJAY,79,180,,,38,72,14,0,34,0,10,-5,Angry
+68,Palagi,TJ Monterde,75,108,"cdo indie, opm, pinoy singer-songwriter",Pop,48,17,88,0,35,0,10,-14,Angry
+69,Walang Kapalit (AM VER.),Arthur Miguel,66,120,opm,Pop,62,21,87,0,29,0,10,-11,Angry
+70,Heaven Knows - This Angel Has Flown,Orange & Lemons,78,93,opm,Pop,58,51,27,0,46,0,10,-8,Angry
+71,Gusto feat. Al James,"Zack Tabudlo,Al James",73,84,"acoustic opm, opm, p-pop, pinoy alternative rap, pinoy hip hop, pinoy r&b, pinoy trap","Pop, Hip Hop, R&B",61,70,4,0,20,0,0,-5,Angry
+72,Yakap sa Dilim,Orange & Lemons,70,114,opm,Pop,65,72,10,0,59,0,10,-3,Angry
+73,Araw-Araw,Ben&Ben,71,141,opm,Pop,48,42,58,0,22,0,20,-8,Angry
+74,Paraluman,Adie,67,90,opm,Pop,51,25,77,0,11,0,10,-14,Angry
+75,Uhaw (Tayong Lahat),Dilaw,74,136,opm,Pop,64,72,28,0,32,0,10,-7,Angry
+76,Sa Susunod na Habang Buhay,Ben&Ben,78,177,opm,Pop,31,34,43,0,27,0,10,-9,Angry
+77,Ikaw Pa Rin Ang Pipiliin Ko,Cup of Joe,70,174,"opm, pinoy city pop",Pop,47,56,12,0,35,0,10,-7,Angry
+78,Maging Sino Ka Man,REY VALERA,43,142,"classic opm, manila sound, opm","World/Traditional, Pop",40,48,8,0,16,0,20,-10,Angry
+79,LUV DRUG,"gins&melodies,Eros Tongco",74,110,"pinoy hip hop, tagalog rap,",Hip Hop,69,52,50,0,10,0,20,-11,Angry
+80,Stay - On the Wings of Love Teleserye Theme,Daryl Ong,59,92,opm,Pop,56,28,84,0,31,0,10,-9,Angry
+81,TAKE ALL THE LOVE,Arthur Nery,80,82,"cdo indie, opm, p-pop",Pop,49,49,28,0,26,0,10,-7,Angry

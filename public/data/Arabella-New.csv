@@ -1,0 +1,106 @@
+#,Song,Artist,Popularity,BPM,Genres,Parent Genres,Dance,Energy,Acoustic,Instrumental,Happy,Speech,Live,Loud,Mood
+1,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,84,119,"dance pop, pop",Pop,71,82,21,0,87,0,0,-9 db,Happy
+2,Footloose,Kenny Loggins,73,174,"album rock, classic rock, heartland rock, mellow gold, new wave pop, singer-songwriter, soft rock, yacht rock","Rock, Pop, Folk/Acoustic",55,90,8,0,49,0,0,-7 db,Happy
+3,Dancing Queen,ABBA,86,101,"europop, swedish pop",Pop,54,87,36,0,75,0,70,-7 db,Happy
+4,Crazy Little Thing Called Love - Remastered 2011,Queen,83,77,"classic rock, glam rock, rock",Rock,60,76,71,0,71,0,30,-7 db,Happy
+5,I'm A Believer,Smash Mouth,68,82,"pop rock, post-grunge","Rock, Metal",55,98,2,0,87,0,40,-4 db,Happy
+6,Come and Get Your Love - Single Version,Redbone,78,107,"native american contemporary, native american traditional",World/Traditional,73,80,17,0,96,0,0,-8 db,Happy
+7,I Melt with You,Modern English,54,156,"new romantic, new wave, new wave pop, synthpop","Rock, Pop",54,80,0,0,67,0,0,-12 db,Happy
+8,Next To You (feat. Justin Bieber),"Chris Brown,Justin Bieber",72,115,"r&b, rap, canadian pop, pop","Pop, R&B, Hip Hop",67,68,2,0,35,0,10,-5 db,Happy
+9,Mamma Mia,ABBA,80,138,"europop, swedish pop",Pop,75,75,30,0,83,0,40,-7 db,Happy
+10,Hooked On A Feeling,"Blue Swede,Björn Skifs",72,118,classic swedish pop,Pop,55,82,26,0,93,0,30,-7 db,Happy
+11,"(I've Had) The Time Of My Life - From ""Dirty Dancing"" Soundtrack","Bill Medley,Jennifer Warnes",68,109,"soft rock,",Rock,70,67,4,1,49,0,0,-13 db,Happy
+12,Waterloo,ABBA,76,148,"europop, swedish pop",Pop,45,95,40,0,65,0,0,-5 db,Happy
+13,I'm Coming Out,Diana Ross,71,110,"adult standards, disco, motown, quiet storm, soft rock, soul","Easy listening, R&B, Rock",72,83,19,43,77,0,0,-9 db,Happy
+14,Fantasy,Mariah Carey,79,102,"dance pop, pop, urban contemporary","Pop, Hip Hop",67,73,14,0,81,0,10,-8 db,Happy
+15,pov,Ariana Grande,74,132,pop,Pop,49,53,36,0,17,0,10,-6 db,Happy
+16,lowkey,NIKI,77,118,indonesian r&b,R&B,75,49,43,0,23,0,0,-8 db,Happy
+17,THAT'S MY BABY,PLAYERTWO,52,122,,,81,67,50,0,96,0,30,-6 db,Happy
+18,Tingin,"Cup of Joe,Janine",80,105,"opm, pinoy city pop, pinoy singer-songwriter",Pop,62,77,21,0,47,0,10,-6 db,Happy
+19,Off My Face,Justin Bieber,75,91,"canadian pop, pop",Pop,51,23,92,0,59,0,10,-9 db,Happy
+20,Daylight,Taylor Swift,83,150,pop,Pop,56,50,81,0,27,0,0,-10 db,Happy
+21,Viva La Vida,Coldplay,88,138,"permanent wave, pop","Rock, Pop",49,62,10,0,42,0,10,-7 db,Happy
+22,Golden,Harry Styles,78,140,pop,Pop,45,84,21,0,25,0,10,-5 db,Happy
+23,Higher Power,Coldplay,66,178,"permanent wave, pop","Rock, Pop",51,83,1,0,49,0,20,-6 db,Happy
+24,Kiss Me More (feat. SZA),"Doja Cat,SZA",76,111,"dance pop, pop, r&b, rap","Pop, R&B, Hip Hop",76,70,24,0,74,0,10,-4 db,Happy
+25,A Sky Full of Stars,Coldplay,86,125,"permanent wave, pop","Rock, Pop",55,68,1,0,16,0,20,-6 db,Happy
+26,I'm In Love With You,The 1975,71,119,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",67,90,17,0,91,0,20,-4 db,Happy
+27,My Universe,"Coldplay,BTS",78,105,"permanent wave, pop, k-pop, k-pop boy group","Pop, Rock",57,71,1,0,47,0,30,-6 db,Happy
+28,About You,The 1975,81,96,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",42,76,31,80,46,0,0,-7 db,Happy
+29,18,One Direction,79,124,"boy band, pop, post-teen pop, talent show",Pop,68,58,22,0,22,0,10,-8 db,Happy
+30,XO,Beyoncé,69,170,"pop, r&b","Pop, R&B",47,79,16,0,22,20,30,-9 db,Happy
+31,I Like Me Better,Lauv,82,92,pop,Pop,75,51,53,0,42,20,10,-8 db,Happy
+32,Little Things,One Direction,74,110,"boy band, pop, post-teen pop, talent show",Pop,71,22,81,0,53,0,10,-12 db,Happy
+33,Christmas Tree,V,74,139,"j-division, korean ost",Pop,44,38,70,0,18,0,10,-8 db,Happy
+34,Anyone,Justin Bieber,71,116,"canadian pop, pop",Pop,69,52,19,0,58,0,10,-8 db,Happy
+35,Love Somebody,Maroon 5,61,120,pop,Pop,68,78,13,0,40,0,10,-6 db,Happy
+1,Superhero,Lauv,57,130,pop,Pop,68,34,82,0,42,0,20,-9 db,Sad
+2,Falling,Harry Styles,84,110,pop,Pop,57,27,84,0,6,0,0,-7 db,Sad
+3,Almost Is Never Enough,"Ariana Grande,Nathan Sykes",68,81,"pop, post-teen pop, talent show, teen pop",Pop,32,33,83,0,33,0,10,-7 db,Sad
+4,She's The One,Robbie Williams,68,167,"dance rock, europop","Rock, Pop",24,61,66,0,33,0,20,-8 db,Sad
+5,Yellow,Coldplay,91,173,"permanent wave, pop","Rock, Pop",43,66,0,0,28,0,20,-7 db,Sad
+6,Fix You,Coldplay,84,138,"permanent wave, pop","Rock, Pop",21,42,16,0,12,0,10,-9 db,Sad
+7,You're Beautiful,James Blunt,77,82,neo mellow,Folk/Acoustic,68,48,63,0,45,0,0,-10 db,Sad
+8,Sweet Creature,Harry Styles,74,104,pop,Pop,43,26,75,0,23,0,0,-9 db,Sad
+9,You & I,One Direction,77,131,"boy band, pop, post-teen pop, talent show",Pop,57,33,22,0,36,0,10,-7 db,Sad
+10,Sign of the Times,Harry Styles,84,120,pop,Pop,52,60,3,0,22,0,10,-5 db,Sad
+11,Happiness,Rex Orange County,72,105,bedroom pop,Pop,40,24,73,0,20,0,10,-10 db,Sad
+12,SLOW DANCING IN THE DARK,Joji,81,89,viral pop,Pop,52,48,54,1,28,0,10,-7 db,Sad
+13,"Flightless Bird, American Mouth",Iron & Wine,70,155,"acoustic pop, chamber pop, indie folk, indie rock, stomp and holler","Pop, Folk/Acoustic, Rock",37,40,83,5,18,0,10,-8 db,Sad
+14,Cold,"Aqualung,Lucy Schwartz",51,105,"piano rock, southampton indie, acoustic pop","Pop, Rock",26,13,98,1,8,0,10,-14 db,Sad
+15,Iris,The Goo Goo Dolls,88,156,"neo mellow, permanent wave, pop rock, post-grunge","Folk/Acoustic, Rock, Metal",32,72,0,0,50,0,0,-8 db,Sad
+16,Kalawakan,juan karlos,45,120,opm,Pop,62,40,31,0,60,0,20,-8 db,Sad
+17,Paubaya,Moira Dela Torre,63,127,opm,Pop,37,25,77,0,17,0,0,-12 db,Sad
+18,Breakeven,The Script,77,94,"celtic rock, pop","Rock, Pop",63,70,14,0,49,0,0,-5 db,Sad
+19,Muli,Ace Banzuelo,67,144,"opm, p-pop, pinoy r&b","Pop, R&B",48,88,1,0,28,0,10,-4 db,Sad
+20,Someday,Nina,63,133,opm,Pop,56,21,94,0,51,0,10,-11 db,Sad
+21,Pasensya Ka Na,Silent Sanctuary,67,84,opm,Pop,70,26,51,0,28,0,0,-15 db,Sad
+22,"Umaaraw, Umuulan",Rivermaya,62,135,opm,Pop,56,86,2,0,60,0,30,-5 db,Sad
+23,You'll Be Safe Here,Rico Blanco,72,75,"opm, pinoy rock","Pop, Rock",51,54,9,0,46,0,10,-10 db,Sad
+24,Lose You To Love Me,Selena Gomez,81,103,"pop, post-teen pop",Pop,49,34,56,0,10,0,20,-9 db,Sad
+25,When I Was Your Man,Bruno Mars,89,73,"dance pop, pop",Pop,61,28,93,0,39,0,0,-9 db,Sad
+26,Somewhere Only We Know,Keane,86,172,"neo mellow, piano rock, pop rock","Folk/Acoustic, Rock",45,67,6,0,30,0,0,-4 db,Sad
+27,Be My Mistake,The 1975,68,110,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",57,16,84,0,9,0,0,-14 db,Sad
+28,Heather,Conan Gray,88,102,"bedroom pop, pop, pov: indie",Pop,36,43,58,0,27,0,30,-7 db,Sad
+29,Cry,Cigarettes After Sex,86,143,"ambient pop, dream pop, el paso indie, shoegaze","Pop, Country, Rock",41,40,76,68,16,0,10,-10 db,Sad
+30,Apocalypse,Cigarettes After Sex,90,94,"ambient pop, dream pop, el paso indie, shoegaze","Pop, Country, Rock",37,47,2,57,18,0,10,-9 db,Sad
+31,The Day You Said Goodnight,Hale,72,134,"opm, pinoy reggae",Pop,56,56,51,0,24,0,10,-7 db,Sad
+32,Robbers,The 1975,72,100,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",62,69,0,0,38,0,30,-7 db,Sad
+33,Fallingforyou,The 1975,64,85,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",26,28,89,0,8,0,30,-15 db,Sad
+34,Sparks,Coldplay,88,103,"permanent wave, pop","Rock, Pop",37,27,75,5,17,0,10,-11 db,Sad
+35,Let You Break My Heart Again,"Laufey,Philharmonia Orchestra",79,77,"gen z singer-songwriter, british orchestra, orchestra",Classical,30,14,97,11,12,0,10,-15 db,Sad
+1,Superhero,Lauv,57,130,pop,Pop,68,34,82,0,42,0,20,-9 db,Angry
+2,Robbers,The 1975,72,100,"modern alternative rock, modern rock, pop, pov: indie, rock","Rock, Pop",62,69,0,0,38,0,30,-7 db,Angry
+3,You’re Losing Me (From The Vault),Taylor Swift,86,103,pop,Pop,75,39,53,0,20,0,10,-14 db,Angry
+4,Save Your Tears,The Weeknd,88,118,"canadian contemporary r&b, canadian pop, pop","R&B, Pop",68,83,2,0,64,0,50,-5 db,Angry
+5,Ride,Twenty One Pilots,83,75,"modern rock, pop, pov: indie, rock","Rock, Pop",65,71,1,0,57,0,10,-5 db,Angry
+6,Stressed Out,Twenty One Pilots,86,170,"modern rock, pop, pov: indie, rock","Rock, Pop",73,64,5,0,65,10,0,-6 db,Angry
+7,Tear in My Heart,Twenty One Pilots,77,120,"modern rock, pop, pov: indie, rock","Rock, Pop",66,63,2,0,45,0,0,-5 db,Angry
+8,Pompeii,Bastille,79,127,"metropopolis, modern rock, pop","Electronic, Rock, Pop",68,72,8,0,57,0,20,-6 db,Angry
+9,Demons,Imagine Dragons,86,90,"modern rock, pop, rock","Rock, Pop",51,71,19,0,43,0,20,-3 db,Angry
+10,Radioactive,Imagine Dragons,82,136,"modern rock, pop, rock","Rock, Pop",45,78,11,0,24,0,60,-4 db,Angry
+11,Animal,Neon Trees,66,148,"modern rock, neo mellow, pop rock, pov: indie","Rock, Folk/Acoustic, Pop",48,83,0,0,74,0,30,-6 db,Angry
+12,Bad Things (with Camila Cabello),"mgk,Camila Cabello",72,138,"ohio hip hop, pop rap, dance pop, pop","Pop, Hip Hop",70,69,21,0,31,10,10,-5 db,Angry
+13,Love Runs Out,OneRepublic,65,120,"piano rock, pop","Rock, Pop",72,93,17,0,74,0,0,-4 db,Angry
+14,Everybody Wants To Rule The World,Tears For Fears,88,112,"new romantic, new wave, new wave pop, permanent wave, rock, sophisti-pop, synthpop","Rock, Pop",65,80,35,0,54,0,10,-12 db,Angry
+15,Only Angel,Harry Styles,66,114,pop,Pop,55,84,29,0,35,0,10,-4 db,Angry
+16,Kiwi,Harry Styles,73,147,pop,Pop,38,93,0,0,49,0,30,-3 db,Angry
+17,Arabella,Arctic Monkeys,78,180,"garage rock, modern rock, permanent wave, rock, sheffield indie",Rock,58,56,2,0,51,0,20,-7 db,Angry
+18,Ain't It Fun,Paramore,74,104,"candy pop, modern rock, pixie, pop, pop emo, pop punk, rock","Pop, Rock",61,89,15,0,67,0,0,-4 db,Angry
+19,Still into You,Paramore,81,136,"candy pop, modern rock, pixie, pop, pop emo, pop punk, rock","Pop, Rock",60,92,1,0,77,0,0,-4 db,Angry
+20,Partition,Beyoncé,73,176,"pop, r&b","Pop, R&B",42,44,3,7,17,20,30,-12 db,Angry
+21,Formation,Beyoncé,73,122,"pop, r&b","Pop, R&B",90,62,1,0,82,20,20,-7 db,Angry
+22,bloody valentine,mgk,70,160,"ohio hip hop, pop rap",Hip Hop,53,86,0,0,51,0,10,-4 db,Angry
+23,Bitch Better Have My Money,Rihanna,77,103,"barbadian pop, pop, urban contemporary","Pop, Hip Hop",78,73,5,0,40,0,20,-5 db,Angry
+24,Sk8er Boi,Avril Lavigne,78,150,"canadian pop, candy pop, dance pop, pop",Pop,49,90,0,0,48,0,30,-4 db,Angry
+25,I Kissed A Girl,Katy Perry,72,130,pop,Pop,70,76,0,0,70,0,10,-3 db,Angry
+26,Youngblood,5 Seconds of Summer,83,120,"boy band, pop",Pop,60,85,2,0,15,40,10,-5 db,Angry
+27,Kill Bill,SZA,83,89,"pop, r&b, rap","Pop, R&B, Hip Hop",64,73,5,17,43,0,10,-6 db,Angry
+28,Teenage Dirtbag,Wheatus,78,95,pop rock,Rock,63,85,35,0,63,0,10,-4 db,Angry
+29,Colors,Halsey,68,100,"electropop, etherpop, indie poptimism, pop",Pop,51,81,5,0,52,0,0,-5 db,Angry
+30,Without Me,Halsey,82,136,"electropop, etherpop, indie poptimism, pop",Pop,75,49,30,0,53,0,0,-7 db,Angry
+31,Tomboy,Destiny Rogers,69,78,,,64,65,42,1,46,0,10,-5 db,Angry
+32,Jealous,Nick Jonas,69,93,"dance pop, pop",Pop,70,70,1,0,38,10,40,-4 db,Angry
+33,How You Like That,BLACKPINK,77,130,"k-pop, k-pop girl group, pop",Pop,81,79,5,0,33,0,0,-4 db,Angry
+34,Typa Girl,BLACKPINK,72,132,"k-pop, k-pop girl group, pop",Pop,92,59,6,0,52,0,60,-8 db,Angry
+35,Lovesick Girls,BLACKPINK,71,128,"k-pop, k-pop girl group, pop",Pop,66,73,1,0,41,0,10,-5 db,Angry

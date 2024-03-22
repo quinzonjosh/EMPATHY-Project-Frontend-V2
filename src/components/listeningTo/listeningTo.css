@@ -47,8 +47,18 @@
     font-weight: bold;
     cursor: pointer;
     transition: filter 0.3s;
-    
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+
     &:hover{
         background-color: #0d5450;
     }
+}
+
+.info-button-container{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
 }

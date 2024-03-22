@@ -1,0 +1,111 @@
+#,Song,Artist,Popularity,BPM,Genres,Parent Genres,Dance,Energy,Acoustic,Instrumental,Happy,Speech,Live,Loud,Mood
+1,The Most Beautiful Thing,Bruno Major,68,127,singer-songwriter pop,Pop,81,36,54,5,42,0,10,-10 db,Happy
+2,Sunflower,Rex Orange County,74,130,bedroom pop,Pop,55,77,65,0,57,0,50,-4 db,Happy
+3,Me & You ◑,"HONNE,Tom Misch",57,120,"uk pop, indie soul, jazz pop","R&B, Pop",77,55,65,0,60,0,0,-8 db,Happy
+4,Dive,Ed Sheeran,74,135,"pop, singer-songwriter pop, uk pop",Pop,76,39,36,0,53,0,10,-6 db,Happy
+5,THE SHADE,Rex Orange County,77,120,bedroom pop,Pop,90,51,39,0,73,0,0,-8 db,Happy
+6,Always,Daniel Caesar,82,136,canadian contemporary r&b,R&B,60,44,69,0,17,0,10,-8 db,Happy
+7,Next To You (feat. Justin Bieber),"Chris Brown,Justin Bieber",72,115,"r&b, rap, canadian pop, pop","Pop, R&B, Hip Hop",67,68,2,0,35,0,10,-5 db,Happy
+8,SOLO,JENNIE,52,95,k-pop,Pop,85,55,6,0,52,10,10,-7 db,Happy
+9,Ditto,NewJeans,82,134,"k-pop, k-pop girl group",Pop,81,64,3,0,18,10,10,-6 db,Happy
+10,OMG,NewJeans,83,127,"k-pop, k-pop girl group",Pop,80,77,36,0,74,0,10,-4 db,Happy
+11,Hype Boy,NewJeans,81,100,"k-pop, k-pop girl group",Pop,59,94,27,0,78,20,20,-3 db,Happy
+12,Cookie (FRNK Remix),NewJeans,55,80,"k-pop, k-pop girl group",Pop,83,47,55,0,78,0,10,-7 db,Happy
+13,Attention,NewJeans,78,105,"k-pop, k-pop girl group",Pop,81,65,24,0,70,0,0,-4 db,Happy
+14,BOOMBAYAH,BLACKPINK,74,125,"k-pop, k-pop girl group, pop",Pop,66,84,0,0,40,0,50,-3 db,Happy
+15,Super Shy,NewJeans,85,150,"k-pop, k-pop girl group",Pop,78,82,18,0,52,0,10,-6 db,Happy
+16,Bad Habits,Ed Sheeran,82,126,"pop, singer-songwriter pop, uk pop",Pop,81,89,5,0,54,0,30,-4 db,Happy
+17,Galway Girl,Ed Sheeran,80,100,"pop, singer-songwriter pop, uk pop",Pop,62,88,7,0,78,10,30,-3 db,Happy
+18,POP!,NAYEON,76,97,k-pop,Pop,80,86,4,0,36,0,0,-3 db,Happy
+19,I Like Me Better,Lauv,82,92,pop,Pop,75,51,53,0,42,20,10,-8 db,Happy
+20,San Francisco Street,Sun Rai,58,111,,,88,54,22,13,51,0,0,-9 db,Happy
+21,Nonsense,Sabrina Carpenter,88,139,pop,Pop,74,70,3,0,73,0,20,-5 db,Happy
+22,Titig,"MC Einstein,Flow G,Jekkpot,Yuridope",67,79,"pinoy hip hop, tagalog rap, pinoy r&b","Hip Hop, R&B",80,45,15,0,65,20,0,-8 db,Happy
+23,Lemonade,"Jeremy Passion,Melissa Polinar,Gabe Bondoc",57,122,"chill r&b, pop soul",R&B,52,20,73,0,56,0,10,-12 db,Happy
+24,Nothing,Jeremy Passion,52,80,"chill r&b, pop soul",R&B,59,24,56,0,26,0,10,-12 db,Happy
+25,That's What I Like,Bruno Mars,88,134,"dance pop, pop",Pop,85,56,1,0,86,0,0,-5 db,Happy
+26,24K Magic,Bruno Mars,81,107,"dance pop, pop",Pop,82,80,3,0,63,0,10,-4 db,Happy
+27,Chunky,Bruno Mars,70,202,"dance pop, pop",Pop,57,54,2,0,73,10,10,-4 db,Happy
+28,Finesse - Remix; feat. Cardi B,"Bruno Mars,Cardi B",76,105,"dance pop, pop, rap","Pop, Hip Hop",70,86,2,0,93,10,0,-5 db,Happy
+29,Panalangin,APO Hiking Society,65,114,"classic opm, opm","World/Traditional, Pop",64,60,18,0,62,0,0,-7 db,Happy
+30,Beautiful Soul,Jesse McCartney,72,90,"dance pop, pop, post-teen pop",Pop,66,67,8,0,93,0,0,-4 db,Happy
+31,KEEP IT UP,Rex Orange County,57,150,bedroom pop,Pop,71,48,29,0,73,0,20,-7 db,Happy
+32,AMAZING,Rex Orange County,71,124,bedroom pop,Pop,72,46,28,0,55,0,0,-8 db,Happy
+33,Loving Is Easy,"Rex Orange County,Benny Sings",72,117,"bedroom pop, dutch pop, indie soul","Pop, R&B",76,61,22,0,54,0,10,-8 db,Happy
+34,Say You Won't Let Go,James Arthur,88,85,"pop, talent show, uk pop",Pop,36,56,70,0,49,0,0,-7 db,Happy
+35,Mirrors,Justin Timberlake,83,77,"dance pop, pop",Pop,57,51,23,0,51,0,0,-7 db,Happy
+36,Okinawa,92914,57,148,"chill pop, korean indie folk","Pop, Folk/Acoustic",74,17,93,17,38,0,60,-18 db,Happy
+37,Para Sa Akin,Sitti,58,126,,,58,41,92,0,47,0,10,-11 db,Happy
+38,Ligaya,Eraserheads,61,126,"opm, pinoy reggae",Pop,55,72,40,0,68,0,10,-8 db,Happy
+1,vampire,Olivia Rodrigo,92,138,pop,Pop,51,53,18,0,35,0,20,-6 db,Sad
+2,"1 step forward, 3 steps back",Olivia Rodrigo,80,169,pop,Pop,47,20,94,0,42,10,10,-13 db,Sad
+3,deja vu,Olivia Rodrigo,87,181,pop,Pop,44,61,58,0,18,10,30,-7 db,Sad
+4,drivers license,Olivia Rodrigo,87,144,pop,Pop,56,43,77,0,14,0,10,-9 db,Sad
+5,All I Want,"Olivia Rodrigo,Disney",74,78,"pop, movie tunes","Easy listening, Pop",38,43,9,0,13,0,0,-7 db,Sad
+6,happier,Olivia Rodrigo,85,169,pop,Pop,40,44,77,0,34,10,0,-10 db,Sad
+7,favorite crime,Olivia Rodrigo,85,173,pop,Pop,37,27,87,0,22,0,10,-10 db,Sad
+8,Before It Sinks In,Moira Dela Torre,64,140,opm,Pop,54,39,60,0,20,0,0,-8 db,Sad
+9,Sana,I Belong to the Zoo,60,129,opm,Pop,60,50,8,0,17,0,10,-7 db,Sad
+10,It Will Rain,Bruno Mars,82,150,"dance pop, pop",Pop,58,84,34,0,48,0,0,-7 db,Sad
+11,Places We Won't Walk,Bruno Major,62,88,singer-songwriter pop,Pop,39,9,97,0,20,0,10,-16 db,Sad
+12,Shouldn't Be,Luke Chiang,74,125,"bedroom r&b, chill r&b",R&B,65,29,73,0,32,0,10,-10 db,Sad
+13,Kung Wala Ka,Hale,65,136,"opm, pinoy reggae",Pop,50,34,71,0,15,0,10,-7 db,Sad
+14,Sparks,Coldplay,88,103,"permanent wave, pop","Rock, Pop",37,27,75,5,17,0,10,-11 db,Sad
+15,Di Na Muli,The Itchyworms,65,121,opm,Pop,52,47,70,0,26,0,10,-7 db,Sad
+16,Midnight Sky,Miley Cyrus,76,110,pop,Pop,70,81,0,0,23,0,20,-6 db,Sad
+17,When I Was Your Man,Bruno Mars,89,73,"dance pop, pop",Pop,61,28,93,0,39,0,0,-9 db,Sad
+18,Because of You,Kelly Clarkson,73,140,"dance pop, pop, talent show",Pop,59,58,25,0,15,0,10,-5 db,Sad
+19,The Man Who Can't Be Moved,The Script,77,100,"celtic rock, pop","Rock, Pop",61,63,44,0,31,0,10,-5 db,Sad
+20,Back To December,Taylor Swift,66,142,pop,Pop,52,61,2,0,30,0,30,-6 db,Sad
+21,Almost Is Never Enough,"Ariana Grande,Nathan Sykes",68,81,"pop, post-teen pop, talent show, teen pop",Pop,32,33,83,0,33,0,10,-7 db,Sad
+22,When You're Gone,Avril Lavigne,70,142,"canadian pop, candy pop, dance pop, pop",Pop,46,72,19,0,17,0,20,-4 db,Sad
+23,Tadhana,Up Dharma Down,76,156,opm,Pop,69,32,16,3,51,0,0,-13 db,Sad
+24,The Day You Said Goodnight,Hale,72,134,"opm, pinoy reggae",Pop,56,56,51,0,24,0,10,-7 db,Sad
+25,Walang Hanggan,Quest,48,107,pinoy rock,Rock,46,24,91,0,40,0,0,-16 db,Sad
+26,All Too Well,Taylor Swift,63,93,pop,Pop,60,61,4,0,34,0,10,-8 db,Sad
+27,The Way I Loved You,Taylor Swift,53,161,pop,Pop,44,71,3,0,38,0,10,-4 db,Sad
+28,I'm Not The Only One,Sam Smith,85,82,"pop, uk pop",Pop,68,49,53,0,49,0,0,-6 db,Sad
+29,Chasing Pavements,Adele,76,80,"british soul, pop, pop soul, uk pop","R&B, Pop",62,47,29,0,33,0,10,-6 db,Sad
+30,Someone Like You,Adele,82,135,"british soul, pop, pop soul, uk pop","R&B, Pop",56,32,89,0,29,0,10,-8 db,Sad
+31,Happier,Ed Sheeran,78,90,"pop, singer-songwriter pop, uk pop",Pop,52,39,54,0,24,0,10,-7 db,Sad
+32,I Love You So,The Walters,89,76,"chicago indie, pov: indie","Rock, Pop",57,65,58,0,47,0,10,-5 db,Sad
+33,Supermarket Flowers,Ed Sheeran,76,90,"pop, singer-songwriter pop, uk pop",Pop,59,24,91,0,26,0,0,-11 db,Sad
+34,Talking to the Moon,Bruno Mars,83,146,"dance pop, pop",Pop,50,59,51,0,8,0,10,-5 db,Sad
+35,Someday,Nina,63,133,opm,Pop,56,21,94,0,51,0,10,-11 db,Sad
+36,Teka Lang,Emman,63,87,"opm, pinoy hip hop, tagalog rap","Pop, Hip Hop",56,24,75,0,26,0,10,-13 db,Sad
+37,Through The Years,Kenny Rogers,63,131,"classic country pop, country, nashville sound, soft rock","Pop, Country, Rock",59,39,23,0,27,0,10,-11 db,Sad
+1,vampire,Olivia Rodrigo,92,138,pop,Pop,51,53,18,0,35,0,20,-6 db,Angry
+2,get him back!,Olivia Rodrigo,84,162,pop,Pop,55,85,1,0,74,10,60,-6 db,Angry
+3,good 4 u,Olivia Rodrigo,86,167,pop,Pop,56,66,34,0,69,10,0,-5 db,Angry
+4,traitor,Olivia Rodrigo,87,101,pop,Pop,38,34,69,0,8,0,10,-8 db,Angry
+5,"jealousy, jealousy",Olivia Rodrigo,84,164,pop,Pop,70,57,20,0,70,10,0,-6 db,Angry
+6,brutal,Olivia Rodrigo,80,124,pop,Pop,67,53,3,0,28,0,20,-6 db,Angry
+7,Grenade,Bruno Mars,78,110,"dance pop, pop",Pop,70,56,15,0,25,0,10,-7 db,Angry
+8,Complicated,Avril Lavigne,81,78,"canadian pop, candy pop, dance pop, pop",Pop,59,78,6,0,43,0,30,-6 db,Angry
+9,Bad Blood,Taylor Swift,75,170,pop,Pop,65,80,9,0,30,10,10,-6 db,Angry
+10,Kill Bill,SZA,83,89,"pop, r&b, rap","Pop, R&B, Hip Hop",64,73,5,17,43,0,10,-6 db,Angry
+11,Happier Than Ever,Billie Eilish,85,81,"art pop, pop",Pop,33,23,77,0,30,0,10,-9 db,Angry
+12,IDGAF,Dua Lipa,80,97,"dance pop, pop, uk pop",Pop,84,54,4,0,51,0,0,-6 db,Angry
+13,Don't Start Now,Dua Lipa,82,124,"dance pop, pop, uk pop",Pop,79,79,1,0,68,0,10,-5 db,Angry
+14,Irreplaceable,Beyoncé,72,176,"pop, r&b","Pop, R&B",45,69,3,0,51,30,10,-5 db,Angry
+15,Boy's a Liar,PinkPantheress,70,133,bedroom pop,Pop,66,84,25,0,74,0,20,-8 db,Angry
+16,Flowers,Miley Cyrus,93,118,pop,Pop,71,69,6,0,63,0,0,-5 db,Angry
+17,abcdefu,GAYLE,78,122,modern alternative pop,Pop,70,54,30,0,42,0,30,-6 db,Angry
+18,Sorry Not Sorry,Demi Lovato,75,144,"pop, post-teen pop",Pop,71,64,2,0,89,20,20,-7 db,Angry
+19,Really Don't Care,"Demi Lovato,Cher Lloyd",72,121,"pop, post-teen pop, dance pop, talent show",Pop,71,73,12,0,85,0,10,-4 db,Angry
+20,Look What You Made Me Do,Taylor Swift,85,128,pop,Pop,77,71,20,0,51,10,10,-6 db,Angry
+21,If I Ain't Got You,Alicia Keys,84,118,"neo soul, pop, r&b","R&B, Pop",61,44,60,0,17,10,10,-9 db,Angry
+22,Too Good At Goodbyes,Sam Smith,85,92,"pop, uk pop",Pop,68,37,64,0,48,0,10,-8 db,Angry
+23,Love,Keyshia Cole,85,117,"hip pop, r&b, urban contemporary","Pop, R&B, Hip Hop",69,52,6,0,32,0,10,-4 db,Angry
+24,Sanctuary,Joji,76,168,viral pop,Pop,55,64,39,0,33,10,30,-7 db,Angry
+25,Rolling in the Deep,Adele,82,105,"british soul, pop, pop soul, uk pop","R&B, Pop",73,77,14,0,51,0,0,-5 db,Angry
+26,Take A Bow,Rihanna,76,82,"barbadian pop, pop, urban contemporary","Pop, Hip Hop",70,47,25,0,57,0,0,-8 db,Angry
+27,Cool Off,Yeng Constantino,55,168,opm,Pop,48,55,26,0,24,0,10,-8 db,Angry
+28,Let Me Be The One,Jimmy Bondoc,61,124,opm,Pop,51,28,83,0,32,0,0,-8 db,Angry
+29,Migraine,Moonstar88,65,115,opm,Pop,66,55,20,0,20,0,10,-6 db,Angry
+30,Kahit Ayaw Mo Na,This Band,48,128,"opm, p-pop",Pop,66,53,34,0,42,0,10,-9 db,Angry
+31,All I Ask,Adele,74,142,"british soul, pop, pop soul, uk pop","R&B, Pop",59,28,89,0,35,0,10,-5 db,Angry
+32,Secret Love Song (feat. Jason Derulo),"Little Mix,Jason Derulo",76,93,"girl group, pop, talent show, uk pop, dance pop",Pop,53,61,22,0,14,0,20,-5 db,Angry
+33,Huwag Na Huwag Mong Sasabihin,Kitchie Nadal,72,164,opm,Pop,38,69,13,0,36,0,10,-6 db,Angry
+34,Because of You,Kelly Clarkson,73,140,"dance pop, pop, talent show",Pop,59,58,25,0,15,0,10,-5 db,Angry
+35,Lips Are Movin,Meghan Trainor,71,139,"hip pop, pop",Pop,78,83,5,0,95,0,10,-5 db,Angry

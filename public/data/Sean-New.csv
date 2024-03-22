@@ -1,0 +1,76 @@
+#,Song,Artist,Popularity,BPM,Genres,Parent Genres,Dance,Energy,Acoustic,Instrumental,Happy,Speech,Live,Loud,Mood
+1,Mixed Nuts,OFFICIAL HIGE DANDISM,63,150,"anime, anime rock, j-pop","Pop, Rock",54,92,1,0,78,0,20,-5 db,Happy
+2,"So Alright, Cool, Whatever",The Happy Fits,59,130,"modern folk rock, new jersey indie, pov: indie","Rock, Pop",69,64,10,0,76,0,0,-5 db,Happy
+3,CHRONICALLY CAUTIOUS,Braden Bales,57,140,singer-songwriter pop,Pop,70,58,26,0,87,10,10,-4 db,Happy
+4,Against the Kitchen Floor,Will Wood,58,120,"pov: indie, weirdcore",Pop,65,78,42,0,61,0,10,-4 db,Happy
+5,From the Start,Good Kid,75,93,,,57,80,2,0,64,0,0,-4 db,Happy
+6,Tell Me You Know,Good Kid,56,96,,,58,92,0,0,88,0,10,-3 db,Happy
+7,Why Not Me,"Forrest.,Biskwiq",52,146,lo-fi rap,Hip Hop,91,72,48,0,70,30,50,-7 db,Happy
+8,Teenage Dirtbag,Wheatus,50,95,pop rock,Rock,62,85,34,0,61,0,10,-4 db,Happy
+9,Fell In Love With a Girl,The White Stripes,73,96,"alternative rock, blues rock, detroit rock, garage rock, modern blues rock, permanent wave, punk blues, rock","Rock, Blues",36,98,71,0,30,10,90,-2 db,Happy
+10,Cherry Wine,grentperez,72,105,bedroom r&b,R&B,74,56,34,0,58,0,0,-7 db,Happy
+11,Loretta,Ginger Root,61,130,"hypnagogic pop, oc indie","Pop, R&B",71,80,28,59,89,0,10,-6 db,Happy
+12,Grandpop's Uke,"Forrest.,Biskwiq",44,130,lo-fi rap,Hip Hop,92,64,28,0,60,40,30,-5 db,Happy
+13,Your Soul,"Forrest.,Biskwiq",53,140,lo-fi rap,Hip Hop,85,85,2,0,82,30,10,-4 db,Happy
+14,Mr. Brightside,The Killers,87,148,"alternative rock, dance rock, modern rock, permanent wave, rock",Rock,35,91,0,0,24,0,10,-5 db,Happy
+15,All The Small Things,blink-182,84,149,"alternative metal, modern rock, pop punk, punk, rock, socal pop punk","Metal, Rock, Pop",43,90,1,0,68,0,60,-5 db,Happy
+16,Sk8er Boi,Avril Lavigne,78,150,"canadian pop, candy pop, dance pop, pop",Pop,49,90,0,0,48,0,30,-4 db,Happy
+17,Complicated,Avril Lavigne,81,78,"canadian pop, candy pop, dance pop, pop",Pop,59,78,6,0,43,0,30,-6 db,Happy
+18,Mimi's Delivery Service,Good Kid,65,102,,,49,99,0,0,87,0,20,-4 db,Happy
+19,Your New Boyfriend,Wilbur Soot,63,105,"pixel, pov: indie",Pop,55,45,38,0,74,10,10,-13 db,Happy
+20,Pretty Dirty (In the Fading Light),Ripe,44,91,boston indie,Rock,68,47,66,0,64,0,0,-8 db,Happy
+21,Sugar,Unusual Demont,50,135,"indie r&b, modern alternative pop","R&B, Pop",84,35,14,0,96,30,0,-8 db,Happy
+22,Gives You Hell,The All-American Rejects,70,100,"alternative metal, modern rock, neo mellow, neon pop punk, pop punk, pop rock, post-grunge","Metal, Rock, Folk/Acoustic, Pop",72,69,2,0,55,0,0,-6 db,Happy
+23,Pasilyo,SunKissed Lola,77,120,"opm, pinoy indie rock","Pop, Rock",71,61,42,0,40,0,10,-5 db,Happy
+24,San Francisco Street,Sun Rai,58,111,,,88,54,22,13,51,0,0,-9 db,Happy
+25,Bad example,takayan,59,120,men chika,,77,66,42,0,81,0,20,-6 db,Happy
+26,comethru,Jeremy Zucker,75,94,"alt z, electropop, pop",Pop,80,18,61,0,61,0,60,-12 db,Happy
+27,Lucky,"Jason Mraz,Colbie Caillat",71,130,"acoustic pop, dance pop, neo mellow, pop","Pop, Folk/Acoustic",63,41,29,0,67,0,10,-9 db,Happy
+28,Drops of Jupiter (Tell Me),Train,82,79,"dance pop, neo mellow, pop, pop rock","Pop, Folk/Acoustic, Rock",48,64,15,0,50,0,10,-6 db,Happy
+29,Hey There Delilah,Plain White T's,80,104,"modern rock, neo mellow, neon pop punk, pop punk, pop rock","Rock, Folk/Acoustic, Pop",66,29,87,0,30,0,10,-11 db,Happy
+30,Dancing in the Moonlight,Toploader,66,119,british alternative rock,Rock,64,85,5,0,87,0,30,-3 db,Happy
+31,Fresh Eyes,Andy Grammer,69,122,"neo mellow, post-teen pop, viral pop","Folk/Acoustic, Pop",83,56,55,0,87,0,10,-7 db,Happy
+32,I'm Yours,Jason Mraz,78,151,"acoustic pop, dance pop, neo mellow, pop","Pop, Folk/Acoustic",70,44,56,0,71,0,10,-9 db,Happy
+33,Fireflies,Owl City,79,180,"indietronica, pop",Pop,51,66,3,0,47,0,10,-7 db,Happy
+34,"Hey, Soul Sister",Train,86,97,"dance pop, neo mellow, pop, pop rock","Pop, Folk/Acoustic, Rock",67,89,19,0,80,0,0,-4 db,Happy
+35,Bubbly,Colbie Caillat,75,128,"dance pop, neo mellow, pop","Pop, Folk/Acoustic",69,48,59,0,26,0,10,-7 db,Happy
+36,New Light,John Mayer,76,124,"neo mellow, singer-songwriter",Folk/Acoustic,83,69,32,3,85,0,0,-8 db,Happy
+37,Take on Me,a-ha,89,84,"new romantic, new wave, new wave pop, permanent wave, synthpop","Rock, Pop",57,90,2,0,88,0,0,-8 db,Happy
+38,Escape (The Pina Colada Song),Rupert Holmes,76,139,yacht rock,Rock,84,51,47,0,95,0,0,-14 db,Happy
+39,Video Killed The Radio Star,The Buggles,72,131,"early synthpop, new wave pop, zolo","Pop, Rock",68,68,10,1,25,0,20,-12 db,Happy
+40,Accidentally In Love,Counting Crows,57,138,"neo mellow, pop rock, post-grunge, rock","Folk/Acoustic, Rock, Metal",55,93,5,0,82,0,0,-4 db,Happy
+41,Break My Stride,Matthew Wilder,73,110,new wave pop,Pop,92,59,20,0,83,0,0,-11 db,Happy
+42,1612,Vulfpeck,59,171,"ann arbor indie, funk rock, instrumental funk","Folk/Acoustic, Rock, R&B",68,39,18,0,71,20,0,-11 db,Happy
+43,Honey,Johnny Balik,48,140,"chattanooga indie, pop soul","Folk/Acoustic, R&B",76,47,63,0,62,40,10,-8 db,Happy
+44,Would You Be So Kind,dodie,59,160,"alt z, indie pop, pov: indie",Pop,66,62,16,0,61,20,10,-10 db,Happy
+45,Crush,Tessa Violet,62,136,"alt z, indie pop, pov: indie",Pop,91,40,3,0,83,0,0,-10 db,Happy
+1,Sarashi-mono (feat. PUNPEE),"Gen Hoshino,PUNPEE",33,154,"j-acoustic, j-pop, japanese singer-songwriter, j-rap, japanese r&b","Pop, Hip Hop, R&B",82,59,5,0,61,20,0,-6 db,Sad
+2,Edo,iwamizu,42,85,japanese jazz fusion,Jazz,64,69,75,75,60,0,10,-6 db,Sad
+3,Fathom,iwamizu,14,90,japanese jazz fusion,Jazz,71,43,69,89,20,0,20,-15 db,Sad
+4,Would That I,Hozier,71,131,"irish singer-songwriter, modern rock, pov: indie","Folk/Acoustic, Rock, Pop",52,53,24,1,50,0,10,-6 db,Sad
+5,Girls Like Me,Will Joseph Cook,42,122,"kent indie, modern alternative pop","Rock, Pop",76,72,7,0,96,0,10,-6 db,Sad
+6,Numb Little Bug,Em Beihold,74,85,"alt z, gen z singer-songwriter",Pop,74,53,33,0,64,0,20,-7 db,Sad
+7,Make Your Own Kind Of Music,Cass Elliot,67,121,,,53,56,61,0,70,0,20,-13 db,Sad
+8,rises the moon,Liana Flores,83,137,pov: indie,Pop,48,13,95,14,20,0,10,-20 db,Sad
+9,Boys Will Be Bugs,Cavetown,42,179,"bedroom pop, indie pop, pov: indie",Pop,49,53,0,0,45,0,10,-12 db,Sad
+10,My Happy Ending,Avril Lavigne,71,170,"canadian pop, candy pop, dance pop, pop",Pop,41,94,0,0,74,0,30,-2 db,Sad
+11,Bad Day,Daniel Powter,77,140,"canadian pop, neo mellow, pop rock","Pop, Folk/Acoustic, Rock",60,79,45,0,52,0,10,-4 db,Sad
+12,Make You Mine,PUBLIC,75,103,indie rockism,Rock,61,80,1,0,64,0,10,-4 db,Sad
+13,A Thousand Miles,Vanessa Carlton,79,95,"lilith, neo mellow, piano rock, pop rock, post-teen pop","Folk/Acoustic, Rock, Pop",56,83,32,0,27,0,10,-4 db,Sad
+14,Line Without a Hook,Ricky Montgomery,79,190,"la indie, pop, pov: indie",Pop,43,65,26,0,51,0,20,-5 db,Sad
+15,Breakeven,The Script,77,94,"celtic rock, pop","Rock, Pop",63,70,14,0,49,0,0,-5 db,Sad
+16,Lemon Boy,Cavetown,65,140,"bedroom pop, indie pop, pov: indie",Pop,51,48,19,0,32,0,0,-10 db,Sad
+17,Mr. Loverman,Ricky Montgomery,79,130,"la indie, pop, pov: indie",Pop,64,53,25,0,49,0,20,-7 db,Sad
+18,She Will Be Loved,Maroon 5,73,102,pop,Pop,71,71,6,0,54,0,10,-6 db,Sad
+19,Bruno is Orange,"Hop Along, Queen Ansleis,Frances Quinlan",70,161,bubblegrunge,Rock,55,40,69,0,42,40,30,-10 db,Sad
+20,This Is Home,Cavetown,70,130,"bedroom pop, indie pop, pov: indie",Pop,81,27,56,0,21,0,10,-12 db,Sad
+21,prom dress,mxmtoon,69,120,"alt z, bedroom pop, indie pop, pov: indie",Pop,56,67,70,0,42,0,10,-6 db,Sad
+22,Passing Through (Can't the Future Just Wait),Kaden MacKay,67,86,"pixel, pov: indie",Pop,54,15,91,0,67,10,20,-17 db,Sad
+23,Dream Sweet in Sea Major,Miracle Musical,68,170,pov: indie,Pop,34,43,92,7,19,0,10,-11 db,Sad
+24,Everything Stays (feat. Olivia Olson),"Adventure Time,Olivia Olson",68,85,"pov: indie,",Pop,48,10,94,0,35,0,10,-18 db,Sad
+25,Cecily Smith (Bonus Track),Will Connolly,41,120,show tunes,Easy listening,77,26,82,0,37,0,0,-13 db,Sad
+26,Another One of Those Days,Cavetown,49,135,"bedroom pop, indie pop, pov: indie",Pop,60,55,45,0,38,0,0,-9 db,Sad
+27,Talk to Me,Cavetown,60,130,"bedroom pop, indie pop, pov: indie",Pop,63,32,67,0,23,0,0,-10 db,Sad
+28,feelings are fatal,mxmtoon,58,96,"alt z, bedroom pop, indie pop, pov: indie",Pop,55,17,91,0,49,10,0,-16 db,Sad
+29,Hello My Old Heart,The Oh Hellos,62,90,"folk-pop, pov: indie, san marcos tx indie, stomp and holler","Pop, Country, Folk/Acoustic",56,30,62,3,30,0,0,-11 db,Sad
+30,"When She Loved Me - From ""Toy Story 2"" / Soundtrack Version",Sarah McLachlan,60,67,"canadian pop, canadian singer-songwriter, ectofolk, lilith, permanent wave, pop rock","Pop, Folk/Acoustic, Rock",39,18,98,0,24,0,0,-12 db,Sad

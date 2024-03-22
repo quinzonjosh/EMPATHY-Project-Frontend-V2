@@ -7,16 +7,16 @@
   display: flex;
   /* background-color: #fff4d0; */
   /* background-color: #fff4d0;*/
-  background-color: #15188a;
+  background-color: #efc880;
   opacity: 1;
-  background-color: #15188a;
+  background-color: #FFF6E5;
   opacity: 1;
   background-image: repeating-radial-gradient(
       circle at 0 0,
       transparent 0,
-      #15188a 14px
+      #FFF6E5 14px
     ),
-    repeating-linear-gradient(#190c3955, #190c39);
+    repeating-linear-gradient(#FFF6E5, #e6c892);
 
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
