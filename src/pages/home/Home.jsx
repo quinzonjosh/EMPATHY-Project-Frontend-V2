@@ -81,7 +81,7 @@ const Home = () => {
       </div>
       <div className="home-right-body">
         <Feedback />
-        {/* <FutureMoodSelector/> */}
+        <FutureMoodSelector/>
         <Track track_id={trackID} />
       </div>
     </div>

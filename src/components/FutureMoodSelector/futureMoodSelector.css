@@ -1,27 +1,28 @@
 .fms-container {
-  background-color: #4f5989;
+  background-color: #336e83;
   border-radius: 30px;
   width: 65%;
+  margin-bottom: 2%;
 }
 
 .fms-label {
   color: white;
-  padding: 2% 5%;
+  padding: 1% 5%;
 }
 
 .fms-btns-container {
   display: flex;
-  background-color: #6b76a8;
-  padding: 5%;
+  background-color: #68b3ce;
+  padding: 2%;
   border-radius: 30px;
 }
 
 .fms-btn {
   width: 30%;
   text-align: center;
-  background-color: #939ed1;
+  background-color: #68b3ce;
   color: white;
-  padding: 3% 5%;
+  padding: 1% 5%;
   border-radius: 10px;
   text-transform: uppercase;
   font-weight: bold;
@@ -33,7 +34,7 @@
   box-shadow: 0px 2px 2px rgb(255, 255, 255);
   transition: ease background-color 250ms;
   &:hover {
-    background-color: #6674b6;
+    background-color: #336e83;
   }
   &:disabled {
     cursor: default;
