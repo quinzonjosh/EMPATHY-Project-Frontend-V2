@@ -26,7 +26,7 @@
 
 .predict_button {
   width: fit-content;
-  background-color: #ff7e7e;
+  background-color: gray;
   color: white;
   border: none;
   border-radius: 10px;
@@ -38,6 +38,10 @@
   transition: filter 0.3s;
   margin: auto;
 
+}
+
+.predict_button.enabled {
+  background-color: #ff7e7e; /* Color when track_id is present */
   &:hover{
     background-color: #c15e5e;
   }

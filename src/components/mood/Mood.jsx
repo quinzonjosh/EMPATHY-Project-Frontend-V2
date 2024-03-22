@@ -10,7 +10,15 @@ const Mood = (props) => {
   const [input, setInput] = useState([]);
   const [model, setModel] = useState();
   const [mood, setMood] = useState("");
+  const [buttonDisabled, setButtonDisabled] = useState(true);
   const track_id = props.track_id;
+
+  const predictMood = () => {
+    var prediction = model.predict(input.expandDims(0)).dataSync();
+    console.log(prediction);
+    var predictionIndex = tf.argMax(prediction).dataSync();
+    setMood(moods[predictionIndex]);
+  };
 
   useEffect(() => {
     if (track_id != null) {
@@ -47,6 +55,7 @@ const Mood = (props) => {
               ]);
 
               setInput(tensor.expandDims(-1));
+              setButtonDisabled(false);
             });
           }
         })
@@ -72,13 +81,9 @@ const Mood = (props) => {
               : ""}
           </div>
           <button
-            className="predict_button"
-            onClick={() => {
-              var prediction = model.predict(input.expandDims(0)).dataSync();
-              console.log(prediction);
-              var predictionIndex = tf.argMax(prediction).dataSync();
-              setMood(moods[predictionIndex]);
-            }}
+            className={`predict_button ${buttonDisabled ? "" : "enabled"}`}
+            onClick={predictMood}
+            disabled={buttonDisabled}
           >
             Predict Mood
           </button>
