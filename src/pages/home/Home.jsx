@@ -80,8 +80,8 @@ const Home = () => {
         </div>
       </div>
       <div className="home-right-body">
-        <Feedback />
-        <FutureMoodSelector/>
+        <Feedback track_id={trackID}/>
+        <FutureMoodSelector track_id={trackID}/>
         <Track track_id={trackID} />
       </div>
     </div>

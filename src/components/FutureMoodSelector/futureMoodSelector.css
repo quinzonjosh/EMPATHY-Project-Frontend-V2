@@ -37,7 +37,6 @@
     background-color: #336e83;
   }
   &:disabled {
-    cursor: default;
-    opacity: 0.7;
+    background-color: gray;
   }
 }

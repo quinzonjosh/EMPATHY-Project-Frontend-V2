@@ -13,6 +13,8 @@ const Track = (props) => {
   const [artist, setArtist] = useState("");
   const [albumImg, setAlbumImg] = useState("");
 
+  const track_id = props.track_id;
+
   useEffect(() => {
     if(props.track_id){
       setTrackID(props.track_id)
@@ -62,7 +64,7 @@ const Track = (props) => {
           <div className="song-title">{name ? name : "Song Title"}</div>
           <div className="artist-label">{artist ? artist : "Artist"}</div>
         </div>
-        <button className="button_recommendation" onClick={() => {
+        <button className="button_recommendation" disabled={!track_id} onClick={() => {
           getTrack()
         }}>
           Get Recommendation

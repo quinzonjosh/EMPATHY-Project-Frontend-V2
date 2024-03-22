@@ -1,8 +1,9 @@
-// import React from "react";
 import "./feedback.css";
 import * as React from "react";
 
-const Feedback = () => {
+const Feedback = (props) => {
+  const track_id = props.track_id;
+
   const handleClick = (e) => {
     // this will get us the words "Happy", "Sad", and "Angry"
     // temporarily, it will only show an alert for button interaction
@@ -15,27 +16,30 @@ const Feedback = () => {
       <div className="f-label">Did we guess right? How are you today?</div>
       <div className="feedback-container">
         <div className="feedback-info-container">
-            <button
-              className="styled_button"
-              id="happy_button"
-              onClick={handleClick}
-            >
-                happy
-            </button>
-            <button
-              className="styled_button"
-              id="sad_button"
-              onClick={handleClick}
-            >
-                sad
-            </button>
-            <button
-              className="styled_button"
-              id="angry_button"
-              onClick={handleClick}
-            >
-                angry
-            </button>
+          <button
+            className="styled_button"
+            id="happy_button"
+            onClick={handleClick}
+            disabled={!track_id} 
+          >
+            happy
+          </button>
+          <button
+            className="styled_button"
+            id="sad_button"
+            onClick={handleClick}
+            disabled={!track_id} 
+          >
+            sad
+          </button>
+          <button
+            className="styled_button"
+            id="angry_button"
+            onClick={handleClick}
+            disabled={!track_id} 
+          >
+            angry
+          </button>
         </div>
       </div>
     </div>
