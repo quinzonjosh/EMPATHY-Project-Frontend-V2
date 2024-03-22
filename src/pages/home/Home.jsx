@@ -5,6 +5,7 @@ import ListeningTo from "../../components/listeningTo/ListeningTo";
 import Mood from "../../components/mood/Mood";
 import Track from "../../components/track/Track";
 import Feedback from "../../components/feedback/feedback";
+import FutureMoodSelector from "../../components/FutureMoodSelector/FutureMoodSelector";
 
 const Home = () => {
   const [name, setName] = useState("");
@@ -80,6 +81,7 @@ const Home = () => {
       </div>
       <div className="home-right-body">
         <Feedback />
+        {/* <FutureMoodSelector/> */}
         <Track track_id={trackID} />
       </div>
     </div>

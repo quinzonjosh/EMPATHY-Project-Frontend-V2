@@ -15,31 +15,27 @@ const Feedback = () => {
       <div className="f-label">Did we guess right? How are you today?</div>
       <div className="feedback-container">
         <div className="feedback-info-container">
-          <div>I want to...</div>
-          <div className="buttons-container">
             <button
               className="styled_button"
               id="happy_button"
               onClick={handleClick}
             >
-                feel happier
+                happy
             </button>
             <button
               className="styled_button"
               id="sad_button"
               onClick={handleClick}
             >
-                {/* keep feeling my mood */}
-                feel my feelings
+                sad
             </button>
             <button
               className="styled_button"
               id="angry_button"
               onClick={handleClick}
             >
-                feel <br/>blue
+                angry
             </button>
-          </div>
         </div>
       </div>
     </div>

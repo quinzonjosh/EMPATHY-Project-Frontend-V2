@@ -3,7 +3,6 @@
 .feedback-label {
   background-color: #4F5989;
   border-radius: 30px;
-  width: 65%;
 }
 
 .f-label {
@@ -19,17 +18,12 @@
 .feedback-info-container{
     padding: 5%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: left;
     color: white;
     text-align: center;
 }
 
-.buttons-container{
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .styled_button{
   width: 30%;
