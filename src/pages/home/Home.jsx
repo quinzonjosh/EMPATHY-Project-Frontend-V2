@@ -16,12 +16,19 @@ const Home = () => {
     "models/Sean/model.json",
     "models/Tiff/model.json",
   ]
+  
   const [name, setName] = useState("");
   const [currentlyPlayingTrack, setCurrentlyPlayingTrack] = useState({});
   const [artists, setArtists] = useState([]);
   const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
+  
+  // Audio Track and Audio ID
   const [trackID, setTrackID] = useState("");
   const [currentTrackFeatures, setCurrentTrackFeatures] = useState([]);
+
+  // Mood = Predicted Mood
+  // CorrectMood = User's Mood
+  // FutureMood = Mood User Wants
   const [mood, setMood] = useState(null);
   const [correctMood, setCorrectMood] = useState(null);
   const [futureMood, setFutureMood] = useState(null);
