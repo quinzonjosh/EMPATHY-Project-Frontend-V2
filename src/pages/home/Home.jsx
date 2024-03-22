@@ -28,23 +28,6 @@ const Home = () => {
         console.error("Error fetching user name:", error);
       });
 
-    // get the latest music listened by the user
-    // apiClient
-    //   .get("me/player/recently-played")
-    //   .then((response) => {
-    //     const track = response.data.items[0].track;
-    //     setRecentlyPlayed(track);
-    //     const artistNames = track.artists.map((artist) => artist.name);
-    //     setArtists(artistNames);
-    //     setAlbumImageURL(track.album.images[0].url);
-
-    //     setTrackID(track.id);
-    //     // console.log(recentlyPlayed);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error fetching recently played:", error);
-    //   });
-
     fetchData()
   }, []);
 
