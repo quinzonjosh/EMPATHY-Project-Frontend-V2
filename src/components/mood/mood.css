@@ -6,8 +6,26 @@
 }
 
 .m-label {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: bold;
   color: white;
-  padding: 2% 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.m-label p{
+  width: 50%;
+  text-align: left;
+}
+
+.m-label select{
+  width: 50%;
+  height: fit-content;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .emotion-container {

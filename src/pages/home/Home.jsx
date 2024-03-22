@@ -8,7 +8,14 @@ import Feedback from "../../components/feedback/feedback";
 import FutureMoodSelector from "../../components/FutureMoodSelector/FutureMoodSelector";
 
 const Home = () => {
-  const [modelPath, setModelPath] = useState("models/Ron/model.json");
+  const modelPaths = [
+    "models/Aaron/model.json",
+    "models/Arabella/model.json",
+    "models/Janella/model.json",
+    "models/Ron/model.json",
+    "models/Sean/model.json",
+    "models/Tiff/model.json",
+  ]
   const [name, setName] = useState("");
   const [currentlyPlayingTrack, setCurrentlyPlayingTrack] = useState({});
   const [artists, setArtists] = useState([]);
@@ -115,13 +122,35 @@ const Home = () => {
           />
         </div>
         <div className="mood-container">
-          <Mood modelPath={modelPath} track_id={trackID} mood={mood} setMood={setMood} track_features={currentTrackFeatures}/>
+          <Mood 
+            paths={modelPaths}
+            initialPath={modelPaths[0]}
+            track_id={trackID} 
+            mood={mood} 
+            setMood={setMood} 
+            track_features={currentTrackFeatures}
+          />
         </div>
       </div>
       <div className="home-right-body">
-        <Feedback track_id={trackID} mood={mood} setCorrectMood={setCorrectMood} printData={printData} features={currentTrackFeatures} />
-        <FutureMoodSelector track_id={trackID} correctMood={correctMood} setFutureMood={setFutureMood}/>
-        <Track track_id={trackID} futureMood={futureMood} />
+        <Feedback 
+          track_id={trackID} 
+          mood={mood} 
+          setCorrectMood={setCorrectMood} 
+          printData={printData} 
+          features={currentTrackFeatures} 
+        />
+
+        <FutureMoodSelector 
+          track_id={trackID} 
+          correctMood={correctMood} 
+          setFutureMood={setFutureMood}
+        />
+
+        <Track 
+          track_id={trackID} 
+          futureMood={futureMood} 
+        />
       </div>
     </div>
   );
