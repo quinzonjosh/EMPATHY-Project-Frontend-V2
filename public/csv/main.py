@@ -7,7 +7,7 @@ for user in users:
     columns = df.columns.values.tolist()
 
     # Removes columns with text (artist, name, gernre, parent genre, mood)
-    df_cut = df.drop(df.columns[[0, 1, 3, 4, 6, 13]], axis=1)
+    df_cut = df.drop(df.columns[[0, 1, 3, 4, 13]], axis=1)
 
     # # Remove the "db" in Loud 
     # df_cut['Loud'] = df['Loud'].str.replace(' db', '')

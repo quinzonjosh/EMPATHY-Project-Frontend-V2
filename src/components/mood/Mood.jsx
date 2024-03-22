@@ -4,7 +4,15 @@ import * as tf from "@tensorflow/tfjs";
 import axios from "axios";
 import apiClient from "../../spotify";
 
-const Mood = ({paths, initialPath, track_id, mood, setMood, track_features}) => {
+const Mood = ({
+  paths,
+  initialPath,
+  track_id,
+  mood,
+  setMood,
+  track_features,
+  setIndex,
+}) => {
   const moods = ["Happy", "Sad", "Angry"];
   const [entry, setEntry] = useState("");
   const [input, setInput] = useState([]);
@@ -19,8 +27,7 @@ const Mood = ({paths, initialPath, track_id, mood, setMood, track_features}) => 
 
   useEffect(() => {
     if (track_id != null && track_features.length > 0) {
-
-      const copy = [...track_features]
+      const copy = [...track_features];
 
       load_model(initialPath).then((model) => {
         setButtonDisabled(false);
@@ -40,12 +47,16 @@ const Mood = ({paths, initialPath, track_id, mood, setMood, track_features}) => 
     <div className="mood-label">
       <div className="m-label">
         <p>Select Model</p>
-        <select onChange={(e) => {
-          load_model(paths[e.target.value]).then((model) => {
-            setModel(model);
-            console.log("Model Loaded : " + paths[e.target.value])
-          })
-        }} defaultValue={0}>
+        <select
+          onChange={(e) => {
+            load_model(paths[e.target.value]).then((model) => {
+              setModel(model);
+              setIndex(e.target.value);
+              console.log("Model Loaded : " + paths[e.target.value]);
+            });
+          }}
+          defaultValue={0}
+        >
           <option value={0}>Aaron</option>
           <option value={1}>Arabella</option>
           <option value={2}>Janella</option>

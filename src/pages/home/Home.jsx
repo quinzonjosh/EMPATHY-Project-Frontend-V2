@@ -15,13 +15,15 @@ const Home = () => {
     "models/Ron/model.json",
     "models/Sean/model.json",
     "models/Tiff/model.json",
-  ]
-  
+  ];
+
   const [name, setName] = useState("");
   const [currentlyPlayingTrack, setCurrentlyPlayingTrack] = useState({});
   const [artists, setArtists] = useState([]);
-  const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
-  
+  const [albumImageURL, setAlbumImageURL] = useState(
+    "public/images/Spotify_logo_without_text.svg.png"
+  );
+
   // Audio Track and Audio ID
   const [trackID, setTrackID] = useState("");
   const [currentTrackFeatures, setCurrentTrackFeatures] = useState([]);
@@ -33,84 +35,122 @@ const Home = () => {
   const [correctMood, setCorrectMood] = useState(null);
   const [futureMood, setFutureMood] = useState(null);
 
+  // Users
+  const [index, setIndex] = useState(0);
+  const users = ["Aaron", "Arabella", "Janella", "Ron", "Sean", "Tiff"];
+
+  // User's stats
+  const [minStats, setMinStats] = useState(null);
+  const [maxStats, setMaxStats] = useState(null);
+
   useEffect(() => {
-    fetchData()
+    fetchData();
   }, []);
+
+  async function fetchStats(emotion) {
+    fetch(`public/csv/${emotion}/${users[index]}_min.json`, {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => setMinStats(data));
+    fetch(`/csv/${emotion}/${users[index]}_max.json`)
+      .then((response) => response.json())
+      .then((data) => setMaxStats(data));
+  }
 
   async function fetchData() {
     // Get User Name
-    apiClient.get("me")
-    .then((response) => {
-      setName(response.data.display_name.split(" ")[0]);
-
-      // Get Currently Playing Track
-      apiClient.get("me/player/currently-playing")
+    apiClient
+      .get("me")
       .then((response) => {
-        var data = response.data
-        const track = data.item;
-        const artistNames = track.artists.map((artist) => artist.name);
-        setCurrentlyPlayingTrack(track);
-        setArtists(artistNames);
-        setAlbumImageURL(track.album.images[0].url);
-        setTrackID(track.id);
+        setName(response.data.display_name.split(" ")[0]);
 
-        // Get Audio Features
-        apiClient.get(`audio-features/${track.id}`)
-        .then((response) => {
-          var data = response.data;
+        // Get Currently Playing Track
+        apiClient
+          .get("me/player/currently-playing")
+          .then((response) => {
+            var data = response.data;
+            const track = data.item;
+            const artistNames = track.artists.map((artist) => artist.name);
+            setCurrentlyPlayingTrack(track);
+            setArtists(artistNames);
+            setAlbumImageURL(track.album.images[0].url);
+            setTrackID(track.id);
 
-          if (data.id != null)
-            setCurrentTrackFeatures([
-              data.tempo,
-              data.danceability * 100,
-              data.energy * 100,
-              data.acousticness * 100,
-              data.instrumentalness * 100,
-              data.valence * 100,
-              data.speechiness * 100,
-              data.liveness * 100,
-              data.loudness,
-            ]);
-        })
-        .catch((error) => {
-          console.error("Error fetching current track features:", error);
-        });
+            // Get Audio Features
+            apiClient
+              .get(`audio-features/${track.id}`)
+              .then((response) => {
+                var data = response.data;
+
+                if (data.id != null)
+                  setCurrentTrackFeatures([
+                    data.tempo,
+                    data.danceability * 100,
+                    data.energy * 100,
+                    data.acousticness * 100,
+                    data.instrumentalness * 100,
+                    data.valence * 100,
+                    data.speechiness * 100,
+                    data.liveness * 100,
+                    data.loudness,
+                  ]);
+              })
+              .catch((error) => {
+                console.error("Error fetching current track features:", error);
+              });
+          })
+          .catch((error) => {
+            console.error("Error fetching currently playing:", error);
+          });
       })
       .catch((error) => {
-        console.error("Error fetching currently playing:", error);
-      })
-    })
-    .catch((error) => {
-      console.error("Error fetching user name:", error);
-    });
+        console.error("Error fetching user name:", error);
+      });
   }
 
-  function printData(currentTrackFeatures){
-    var features = currentTrackFeatures
-    console.log("BPM: " + features[0],)
-    console.log("Dance: " + features[1])
-    console.log("Energy: " + features[2])
-    console.log("Acoustic: " + features[3])
-    console.log("Instrumental: " + features[4])
-    console.log("Happy: " + features[5])
-    console.log("Speech: " + features[6])
-    console.log("Live: " + features[7])
-    console.log("Loud: " + features[8])
+  function printData(currentTrackFeatures) {
+    var features = currentTrackFeatures;
+    console.log("BPM: " + features[0]);
+    console.log("Dance: " + features[1]);
+    console.log("Energy: " + features[2]);
+    console.log("Acoustic: " + features[3]);
+    console.log("Instrumental: " + features[4]);
+    console.log("Happy: " + features[5]);
+    console.log("Speech: " + features[6]);
+    console.log("Live: " + features[7]);
+    console.log("Loud: " + features[8]);
     console.log(
-      currentlyPlayingTrack.name + "," +
-      currentlyPlayingTrack.artists[0].name + "," +
-      features[0] + "," + // BPM  
-      "-" + "," + "-" + // Parent and Child Genre
-      features[1] + "," + // Danceability
-      features[2] + "," + // Energy
-      features[3] + "," + // Acousticness
-      features[4] + "," + // Instrumentalness
-      features[5] + "," + // Valence / Happiness
-      features[6] + "," + // Speechiness
-      features[7] + "," + // Liveness
-      features[8] + "," + // Loudness
-      mood
-    )
+      currentlyPlayingTrack.name +
+        "," +
+        currentlyPlayingTrack.artists[0].name +
+        "," +
+        features[0] +
+        "," + // BPM
+        "-" +
+        "," +
+        "-" + // Parent and Child Genre
+        features[1] +
+        "," + // Danceability
+        features[2] +
+        "," + // Energy
+        features[3] +
+        "," + // Acousticness
+        features[4] +
+        "," + // Instrumentalness
+        features[5] +
+        "," + // Valence / Happiness
+        features[6] +
+        "," + // Speechiness
+        features[7] +
+        "," + // Liveness
+        features[8] +
+        "," + // Loudness
+        mood
+    );
   }
 
   return (
@@ -129,34 +169,38 @@ const Home = () => {
           />
         </div>
         <div className="mood-container">
-          <Mood 
+          <Mood
             paths={modelPaths}
             initialPath={modelPaths[0]}
-            track_id={trackID} 
-            mood={mood} 
-            setMood={setMood} 
+            track_id={trackID}
+            mood={mood}
+            setMood={setMood}
             track_features={currentTrackFeatures}
+            setIndex={setIndex}
           />
         </div>
       </div>
       <div className="home-right-body">
-        <Feedback 
-          track_id={trackID} 
-          mood={mood} 
-          setCorrectMood={setCorrectMood} 
-          printData={printData} 
-          features={currentTrackFeatures} 
+        <Feedback
+          track_id={trackID}
+          mood={mood}
+          setCorrectMood={setCorrectMood}
+          printData={printData}
+          features={currentTrackFeatures}
         />
 
-        <FutureMoodSelector 
-          track_id={trackID} 
-          correctMood={correctMood} 
+        <FutureMoodSelector
+          track_id={trackID}
+          correctMood={correctMood}
           setFutureMood={setFutureMood}
+          fetchStats={fetchStats}
         />
 
-        <Track 
-          track_id={trackID} 
-          futureMood={futureMood} 
+        <Track
+          track_id={trackID}
+          futureMood={futureMood}
+          minStats={minStats}
+          maxStats={maxStats}
         />
       </div>
     </div>
