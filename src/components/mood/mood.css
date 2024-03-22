@@ -21,4 +21,28 @@
   font-family: "Londrina Outline", sans-serif;
   font-weight: 2000;
   font-style: normal;
+  margin: auto;
+}
+
+.predict_button {
+  width: fit-content;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 2% 5%;
+  margin-bottom: 5%;
+  margin: 0 auto; /* Added horizontal margin auto */
+  font-weight: bold;
+  cursor: pointer;
+  transition: filter 0.3s;
+  margin: auto;
+
+}
+
+.predict_button.enabled {
+  background-color: #ff7e7e; /* Color when track_id is present */
+  &:hover{
+    background-color: #c15e5e;
+  }
 }

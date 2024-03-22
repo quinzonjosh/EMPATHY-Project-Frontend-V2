@@ -4,11 +4,12 @@
   background-color: #4F5989;
   border-radius: 30px;
   width: 65%;
+  margin: 2% 0%;
 }
 
 .f-label {
   color: white;
-  padding: 2% 5%;
+  padding: 1% 5%;
 }
 
 .feedback-container {
@@ -16,34 +17,37 @@
   border-radius: 30px;
 }
 
-.feedback-info-container{
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    color: #11706c;
-    justify-content: space-evenly;
+.feedback-info-container {
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  color: white;
+  text-align: center;
 }
 
-.styled_button{
-    background-color: #939ED1;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    outline: 0;
-    border: 0; 
-    margin: 10px;
-    cursor: pointer;
-    box-shadow: 0px 2px 2px rgb(255, 255, 255);
-    transition: ease background-color 250ms;
-    &:hover {
-        background-color: #6674B6;
-    }
-    &:disabled {
-        cursor: default;
-        opacity: 0.7;
-    }
+.styled_button {
+  width: 30%;
+  text-align: center;
+  background-color: #939ED1;
+  color: white;
+  padding: 2% 5%;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: 0;
+  border: 0; 
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgb(255, 255, 255);
+  transition: ease background-color 250ms;
+}
+
+.styled_button:hover {
+  background-color: #6674B6;
+}
+
+.styled_button:disabled {
+  cursor: default;
+  background-color: gray; 
 }

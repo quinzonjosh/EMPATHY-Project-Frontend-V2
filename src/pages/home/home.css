@@ -2,10 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .home-body {
-  width: inherit;
+  width: 100%;
   padding: 3%;
   display: flex;
-  background-color: #fff4d0;
+  /* background-color: #fff4d0; */
+  /* background-color: #fff4d0;*/
+  background-color: #15188a;
+  opacity: 1;
+  background-color: #15188a;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #15188a 14px
+    ),
+    repeating-linear-gradient(#190c3955, #190c39);
+
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }

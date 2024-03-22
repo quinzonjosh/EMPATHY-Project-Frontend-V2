@@ -5,13 +5,18 @@ import ListeningTo from "../../components/listeningTo/ListeningTo";
 import Mood from "../../components/mood/Mood";
 import Track from "../../components/track/Track";
 import Feedback from "../../components/feedback/feedback";
+import FutureMoodSelector from "../../components/FutureMoodSelector/FutureMoodSelector";
 
 const Home = () => {
   const [name, setName] = useState("");
-  const [recentlyPlayed, setRecentlyPlayed] = useState({});
+  const [currentlyPlayingTrack, setCurrentlyPlayingTrack] = useState({});
   const [artists, setArtists] = useState([]);
-  const [albumImageURL, setAlbumImageURL] = useState("public/images/Spotify_logo_without_text.svg.png");
+  const [albumImageURL, setAlbumImageURL] = useState(
+    "public/images/Spotify_logo_without_text.svg.png"
+  );
   const [trackID, setTrackID] = useState("");
+  const [song, setSong] = useState("");
+  const [currentTrackFeatures, setCurrentTrackFeatures] = useState([]);
 
   useEffect(() => {
     // get user's name
@@ -24,24 +29,36 @@ const Home = () => {
         console.error("Error fetching user name:", error);
       });
 
-    // get the latest music listened by the user
+    fetchData()
+  }, []);
+
+  async function fetchData() {
     apiClient
-      .get("me/player/recently-played")
+      .get("me/player/currently-playing")
       .then((response) => {
-        const track = response.data.items[0].track;
-        setRecentlyPlayed(track);
-        const artistNames = track.artists.map(
-          (artist) => artist.name
-        );
+        const track = response.data.item;
+        const artistNames = track.artists.map((artist) => artist.name);
+        setCurrentlyPlayingTrack(track);
         setArtists(artistNames);
-        setAlbumImageURL(track.album.images[0].url)
+        setAlbumImageURL(track.album.images[0].url);
 
         setTrackID(track.id);
       })
       .catch((error) => {
-        console.error("Error fetching recently played:", error);
+        console.error("Error fetching currently playing:", error);
+      })
+
+      // Get Audio Features
+      apiClient
+      .get(`/audio-features/${trackID}`)
+      .then((response) => {
+        const features = response.data;
+        setCurrentTrackFeatures(features);
+      })
+      .catch((error) => {
+        console.error("Error fetching current track features:", error);
       });
-  }, []);
+  }
 
   return (
     <div className="home-body">
@@ -51,15 +68,21 @@ const Home = () => {
           <div className="username">{name}</div>
         </div>
         <div className="listening-to-container">
-          <ListeningTo url={albumImageURL} title={recentlyPlayed.name} artists={artists} />
+          <ListeningTo
+            url={albumImageURL}
+            title={currentlyPlayingTrack.name}
+            artists={artists}
+            fetchData={fetchData}
+          />
         </div>
         <div className="mood-container">
-          <Mood />
+          <Mood track_id={trackID} />
         </div>
       </div>
       <div className="home-right-body">
-        <Feedback />
-        <Track />
+        <Feedback track_id={trackID}/>
+        <FutureMoodSelector track_id={trackID}/>
+        <Track track_id={trackID} />
       </div>
     </div>
   );
