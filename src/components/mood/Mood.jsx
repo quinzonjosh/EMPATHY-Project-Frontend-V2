@@ -62,14 +62,14 @@ const Mood = (props) => {
       <div className="emotion-container">
         <div className="track-info-container">
           <div className="emotion-value">
-            {/* {mood}
+            {mood}
             {mood === "HAPPY"
               ? " :)"
               : mood === "SAD"
               ? " :("
               : mood === "ANGRY"
               ? " >:("
-              : "null"} */}
+              : "null"}
           </div>
           <button
             className="predict_button"
