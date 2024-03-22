@@ -4,66 +4,37 @@ import * as tf from "@tensorflow/tfjs";
 import axios from "axios";
 import apiClient from "../../spotify";
 
-const Mood = (props) => {
-  const moods = ["HAPPY", "SAD", "ANGRY"];
+const Mood = ({modelPath, track_id, mood, setMood, track_features}) => {
+  const moods = ["Happy", "Sad", "Angry"];
   const [entry, setEntry] = useState("");
   const [input, setInput] = useState([]);
   const [model, setModel] = useState();
-  const [mood, setMood] = useState("");
   const [buttonDisabled, setButtonDisabled] = useState(true);
-  const track_id = props.track_id;
 
   const predictMood = () => {
     var prediction = model.predict(input.expandDims(0)).dataSync();
-    console.log(prediction);
     var predictionIndex = tf.argMax(prediction).dataSync();
     setMood(moods[predictionIndex]);
   };
 
   useEffect(() => {
-    if (track_id != null) {
-      apiClient
-        .get(`/audio-features/${track_id}`)
-        .then((response) => {
-          var data = response.data;
-          if (data.id != null) {
-            delete data.id;
-            delete data.key;
-            delete data.uri;
-            delete data.track_href;
-            delete data.type;
-            delete data.analysis_url;
-            delete data.mode;
-            delete data.duration_ms;
-            delete data.time_signature;
+    if (track_id != null && track_features.length > 0) {
 
-            setEntry();
+      const copy = [...track_features]
 
-            load_model().then((model) => {
-              setModel(model);
-
-              var tensor = tf.tensor([
-                data.tempo,
-                data.danceability * 100,
-                data.energy * 100,
-                data.acousticness * 100,
-                data.instrumentalness * 100,
-                data.valence * 100,
-                data.speechiness * 100,
-                data.liveness * 100,
-                data.loudness,
-              ]);
-
-              setInput(tensor.expandDims(-1));
-              setButtonDisabled(false);
-            });
-          }
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      load_model().then((model) => {
+        setButtonDisabled(false);
+        setModel(model);
+        var tensor = tf.tensor(copy);
+        setInput(tensor.expandDims(-1));
+      });
     }
-  }, [track_id]);
+  }, [track_features, track_id]);
+
+  async function load_model() {
+    const model = await tf.loadLayersModel(modelPath);
+    return model;
+  }
 
   return (
     <div className="mood-label">
@@ -71,12 +42,12 @@ const Mood = (props) => {
       <div className="emotion-container">
         <div className="track-info-container">
           <div className="emotion-value">
-            {mood}
-            {mood === "HAPPY"
+            {mood ? mood.toUpperCase() : ""}
+            {mood === "Happy"
               ? " :)"
-              : mood === "SAD"
+              : mood === "Sad"
               ? " :("
-              : mood === "ANGRY"
+              : mood === "Angry"
               ? " >:("
               : ""}
           </div>
@@ -93,8 +64,3 @@ const Mood = (props) => {
   );
 };
 export default Mood;
-
-async function load_model() {
-  const model = await tf.loadLayersModel("/models/tiff_weights/model.json");
-  return model;
-}
